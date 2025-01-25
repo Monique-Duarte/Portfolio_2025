@@ -1,3 +1,6 @@
+
+@use './config/variaveis.scss';
+
 body {
     background-image: url(/img/stars-13910.gif);
     background-repeat: no-repeat;
@@ -6,10 +9,13 @@ body {
 
 header {
     background-color: black;
-    color: aliceblue;
+    color: variaveis.$corFontePadrao;
     max-height: 300px;
     max-width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     h1 {
         align-items: center;
@@ -20,12 +26,16 @@ header {
     .id h1 {
         background-color: transparent;
         text-align: justify;
-        padding: 5px;
+        padding: 0px;
     }
 
     h2 {
-        font-size: 1.5em;
+        font-size: 1.2em;
         line-height: 1;
+    }
+
+    h3 {
+        font-size: 1em;
     }
 
     .info img{
@@ -38,8 +48,8 @@ header {
     }
 
     .foto img {
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     margin-left: 16px;
     margin-right: 16px;
     }
@@ -47,28 +57,28 @@ header {
 
 .contato {
     display: block;
-    margin-right: 50px;
     
     a {
-    color: white;
+    color: variaveis.$corFontePadrao;
     }
 }
 
 .lado {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .container {
     margin-top: 48px;
 
     .qualis {
-    margin-top: 0;
-    padding: 0%;
+    margin-top: 0px;
+    width: 100%;
     }
 
     .proj h2 {
-        color: #fff;
+        color: variaveis.$corFontePadrao;
         text-align: center;
         margin-bottom: 32px;
         max-width: 100%;
@@ -85,8 +95,6 @@ header {
     .card-body {
         font-size: 0.7em;
     }
-
-    
 }
 
 ul.dropdown-menu {
@@ -102,7 +110,7 @@ a.btn.btn {
 }
 
 footer {
-    color: #fff;
+    color: variaveis.$corFontePadrao;
     border-top: 1px solid #333;
     bottom: 0px;
     left: 0;
@@ -130,6 +138,10 @@ footer p {
     h2 {
         font-size: 0.6em;
         line-height: 1.5;
+    }
+
+    h3 {
+        font-size: 0.4em;
     }
         
     .info img {
@@ -174,6 +186,14 @@ footer p {
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+footer {
+    color: variaveis.$corFontePadrao;
+    border-top: 1px solid #333;
+    width: 100%;
+    font-size: 0.8em;
+    margin-bottom: 20px;
 }
 }
 
