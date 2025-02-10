@@ -1,0 +1,73 @@
+/* Header.module.css */
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+.header {
+    background-color: black;
+    color: white;
+    max-height: 300px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    align-items: center;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+}
+
+.id h1 {
+    background-color: transparent;
+    text-align: justify;
+    padding: 0px;
+}
+
+.header h2 {
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+.header h3 {
+    font-size: 1em;
+}
+
+.info img {
+    margin-bottom: 16px;
+    margin-right: 24px;
+}
+
+.id {
+    margin-bottom: 0%;
+}
+
+.foto img {
+    width: 200px;
+    height: 200px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.contato {
+    display: block;
+}
+
+.contato a {
+    color: white;
+}
+
+.lado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    margin-top: 48px;
+    width: 95%;
+}
+
+.qualis {
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}

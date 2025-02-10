@@ -1,0 +1,27 @@
+/* Styles.module.css */
+body {
+    background-image: url(/img/const.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding: 20px;
+}
+
+.container h2 {
+    align-items: center;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+}
+
+.card {
+    border-radius: 8px;
+    --bs-card-bg: unset;
+}
+
+.p-2 {
+    padding: 0;
+}
+
