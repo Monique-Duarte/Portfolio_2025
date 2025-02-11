@@ -25,3 +25,8 @@ body {
     padding: 0;
 }
 
+.row {
+    --bs-gutter-x: 3rem;
+    max-width: 80%;
+    margin: 0 auto;
+}
