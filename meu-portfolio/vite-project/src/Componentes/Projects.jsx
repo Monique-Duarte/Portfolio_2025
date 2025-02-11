@@ -12,7 +12,7 @@ const projetosData = [
     },
     {
     title: "Site - Hema Toma",
-    imgSrc: "/img/game-console-6603120_1280.jpg",
+    imgSrc: "/img/gamecontrol.jpg",
     alt: "controle de video game",
     tags: "#JS #CSS #HTML #Bootstrap",
     siteLink: "https://game-hema-toma.vercel.app/",
@@ -44,7 +44,7 @@ const projetosData = [
     },
     {
     title: "Game Shop",
-    imgSrc: "/img/gamecontrol.jpg",
+    imgSrc: "/img/gif_mario2.gif",
     alt: "Dois controles de video game",
     tags: "#JS #CSS #HTML #Bootstrap",
     siteLink: "https://site-game-shop-ten-coral.vercel.app/",
