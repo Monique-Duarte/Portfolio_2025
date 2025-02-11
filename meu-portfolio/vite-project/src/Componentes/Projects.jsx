@@ -44,7 +44,7 @@ const projetosData = [
     },
     {
     title: "Game Shop",
-    imgSrc: "/img/game.jpg",
+    imgSrc: "/img/gamecontrol.jpg",
     alt: "Dois controles de video game",
     tags: "#JS #CSS #HTML #Bootstrap",
     siteLink: "https://site-game-shop-ten-coral.vercel.app/",
