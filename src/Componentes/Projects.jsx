@@ -7,7 +7,7 @@ const projetosData = [
     imgSrc: "/img/fundo_q.gif",
     alt: "logo de gato",
     tags: "#React #JS #CSS #HTML #Bootstrap",
-    siteLink: "https://portifolio-six-wheat-87.vercel.app/",
+    siteLink: "https://portfolio-moniquead.vercel.app/",
     githubLink: "https://github.com/Monique-Duarte/Portifolio_2025",
     },
     {
