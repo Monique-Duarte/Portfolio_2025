@@ -16,17 +16,16 @@ body {
     color: #fff;
 }
 
-.card {
-    border-radius: 8px;
-    --bs-card-bg: unset;
-}
+
 
 .p-2 {
     padding: 0;
 }
 
 .row {
-    --bs-gutter-x: 3rem;
-    max-width: 80%;
+    --bs-gutter-x: 5rem;
+    max-width: 70%;
     margin: 0 auto;
+    border-radius: 8px;
+    --bs-card-bg: unset;
 }

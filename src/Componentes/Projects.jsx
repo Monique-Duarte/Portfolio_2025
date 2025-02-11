@@ -138,16 +138,16 @@ const Projects = () => {
                 src={projeto.imgSrc}
                 alt={projeto.alt || "Imagem do Projeto"}
                 />
-                <div className={`card-body text-bg-dark ${styles.cardBody}`}>
+                <div className={`card-body text-bg-dark p-1 ${styles.cardBody}`}>
                 <p>{projeto.tags}</p>
                 </div>
-                <div className="d-flex justify-content-between p-2">
-                <a href={projeto.siteLink} target="_blank" rel="noopener noreferrer"
-                    className="btn btn-primary" > Site
-                </a>
-                <a href={projeto.githubLink} target="_blank" rel="noopener noreferrer"
-                    className="btn btn-dark" > GitHub
-                </a>
+                <div className="d-flex justify-content-between p-2 text-bg-dark">
+                    <a href={projeto.siteLink} target="_blank" rel="noopener noreferrer"
+                        className="btn btn-primary" > Site
+                    </a>
+                    <a href={projeto.githubLink} target="_blank" rel="noopener noreferrer"
+                        className="btn btn-dark" > GitHub
+                    </a>
                 </div>
             </div>
             </div>
