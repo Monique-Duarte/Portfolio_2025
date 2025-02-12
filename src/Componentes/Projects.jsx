@@ -27,6 +27,14 @@ const projetosData = [
     githubLink: "https://github.com/Monique-Duarte/Projeto-3-Page-Restaurante.git",
     },
     {
+    title: "Portifólio Less",
+    imgSrc: "/img/portless.png",
+    alt: "Miniatura do site",
+    tags: "#JS #CSS #HTML #Jquery #Less",
+    siteLink: "https://portfolio-less-seven.vercel.app/",
+    githubLink: "https://github.com/Monique-Duarte/Portfolio-Less.git",
+    },
+    {
     title: "Blog de Noticias",
     imgSrc: "/img/image.png",
     alt: "Jornal",
@@ -49,14 +57,6 @@ const projetosData = [
     tags: "#JS #CSS #HTML #Bootstrap",
     siteLink: "https://site-game-shop-ten-coral.vercel.app/",
     githubLink: "https://github.com/Monique-Duarte/Site-Game-Shop.git",
-    },
-    {
-    title: "Portifólio Less",
-    imgSrc: "/img/portless.png",
-    alt: "Miniatura do site",
-    tags: "#JS #CSS #HTML #Jquery #Less",
-    siteLink: "https://portfolio-less-seven.vercel.app/",
-    githubLink: "https://github.com/Monique-Duarte/Portfolio-Less.git",
     },
     {
     title: "Portal de Notícias",
