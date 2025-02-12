@@ -18,7 +18,7 @@ const Header = () => {
                                 <h1>Monique Alves Duarte</h1>
                                 <h2>Graduanda em Engenharia de Software</h2>
                                 <h2>Desenvolvedora Full Stack</h2>
-                                <h3>Dev | Python | HTML | CSS | JavaScript | API | Sistema Web | SQL | Node.JS</h3>
+                                <h3>Dev | Python | JavaScript | TypeScript | React | HTML | CSS | SQL | Node.js | Sistema Web </h3>
                                 <div className={`${styles.container} ${styles.qualis}`}>
                                     <img alt="Python" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
                                     <img alt="JavaScript" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
