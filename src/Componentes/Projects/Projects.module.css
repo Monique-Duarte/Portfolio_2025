@@ -1,4 +1,3 @@
-/* Styles.module.css */
 body {
     background-image: url(/img/const.gif);
     background-repeat: no-repeat;
@@ -15,8 +14,6 @@ body {
     background-color: rgb(20, 20, 20);
     color: #fff;
 }
-
-
 
 .p-2 {
     padding: 0;

@@ -1,13 +1,9 @@
 import React from 'react';
-import styles from './Header.module.css'; // Usando CSS Module corretamente
-
+import styles from './Header.module.css';
 const Header = () => {
     return (
         <header className={styles.header}>
             <div className={styles.container}>
-                <div className={styles.titulo}>
-                    <h1>Portfólio</h1>
-                </div>
                 <div className={styles.conteudo}>
                     <div className={styles.info}>
                         <div className={styles.lado}>
@@ -16,9 +12,9 @@ const Header = () => {
                             </div>
                             <div className={styles.id}>
                                 <h1>Monique Alves Duarte</h1>
-                                <h2>Graduanda em Engenharia de Software</h2>
-                                <h2>Desenvolvedora Full Stack</h2>
-                                <h3>Dev | Python | JavaScript | TypeScript | React | HTML | CSS | SQL | Node.js | Sistema Web </h3>
+                                <p>Graduanda em Engenharia de Software</p>
+                                <p>Desenvolvedora Full Stack</p>
+                                <p>Dev | Python | JavaScript | TypeScript | React | HTML | CSS | SQL | Node.js | Sistema Web </p>
                                 <div className={`${styles.container} ${styles.qualis}`}>
                                     <img alt="Python" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
                                     <img alt="JavaScript" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />

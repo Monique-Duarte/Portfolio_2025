@@ -8,7 +8,7 @@ const projetosData = [
     alt: "logo de gato",
     tags: "#React #JS #CSS #HTML #Bootstrap",
     siteLink: "https://portfolio-moniquead.vercel.app/",
-    githubLink: "https://github.com/Monique-Duarte/Portifolio_2025",
+    githubLink: "https://github.com/Monique-Duarte/Portfolio_2025.git",
     },
     {
     title: "Site - Hema Toma",
@@ -27,7 +27,7 @@ const projetosData = [
     githubLink: "https://github.com/Monique-Duarte/Projeto-3-Page-Restaurante.git",
     },
     {
-    title: "Portifólio Less",
+    title: "Portfólio Less",
     imgSrc: "/img/portless.png",
     alt: "Miniatura do site",
     tags: "#JS #CSS #HTML #Jquery #Less",

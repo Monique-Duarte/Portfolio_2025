@@ -11,25 +11,15 @@
     justify-content: center;
 }
 
-.header h1 {
-    align-items: center;
-    text-align: center;
-    background-color: rgb(20, 20, 20);
-}
-
 .id h1 {
     background-color: transparent;
     text-align: justify;
     padding: 0px;
 }
 
-.header h2 {
+.p {
     font-size: 1.2em;
-    line-height: 1;
-}
-
-.header h3 {
-    font-size: 1em;
+    line-height: .5;
 }
 
 .info img {
