@@ -4,10 +4,10 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <div className={styles.container}>
-                <div className={styles.conteudo}>
-                    <div className={styles.info}>
-                        <div className={styles.lado}>
-                            <div className={styles.foto}>
+                <div className={styles.content}>
+                    <div className={styles.profile}>
+                        <div className={styles.profile__info}>
+                            <div className={styles.profile__image}>
                                 <img src="/img/Group_1.png" alt="Minha foto" />
                             </div>
                             <div className={styles.id}>
@@ -27,7 +27,7 @@ const Header = () => {
                                     <img alt="Node.js" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
                                 </div>
                             </div>
-                            <div className={styles.contato}>
+                            <div className={styles.contact}>
                                 <div>
                                     <a href="https://www.instagram.com/duartt.monique/" target="_blank" rel="noopener noreferrer">
                                         <i className="bi bi-instagram fs-3"></i>
