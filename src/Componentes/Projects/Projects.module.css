@@ -23,14 +23,3 @@ body {
     border-radius: 8px;
     --bs-card-bg: unset;
 }
-
-.card-body {
-    position: relative;
-}
-
-.text-container {
-    white-space: nowrap; /* Mantém o texto em uma única linha */
-    overflow: hidden;    /* Oculta o texto que ultrapassa */
-    text-overflow: ellipsis; /* Adiciona "..." ao final do texto que não cabe */
-    width: 100%; /* Define a largura do container */
-}
