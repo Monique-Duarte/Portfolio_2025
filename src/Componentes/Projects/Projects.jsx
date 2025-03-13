@@ -6,7 +6,7 @@ const Projects = () => {
     return (
     <div className={styles.container}>
         <h2 className="text-center my-4">Projetos</h2>
-        <div className="row justify-content-center">
+        <div className="row flex flex-wrap">
         {Cards.map((projeto, index) => (
             <div className="col-md-2 col-sm-6 mb-4" key={index}>
             <div className={`card ${styles.card}`}>
