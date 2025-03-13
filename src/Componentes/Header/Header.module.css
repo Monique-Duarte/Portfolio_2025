@@ -62,3 +62,40 @@
     margin-bottom: 20px;
     display:flex;
 }
+
+.qualisImg {
+	height: 30px; /* Tamanho padrão */
+	width: 30px; /* Tamanho padrão */
+}
+
+@media (max-width: 767px) {
+    .profile__image img {
+        width: 90px;
+        height: 90px;
+				margin-left: 2px;
+    }
+
+		.id {
+			max-width: 230px;
+		}
+
+    .id h1 {
+        font-size: 1em;
+    }
+    
+    .id p {
+        font-size: 0.6em;
+        line-height: 0.2;
+        display: inline;
+				width: 200px;
+    }
+
+    .container {
+        margin-top: 16px;
+        max-width: 100%;
+    }
+
+		.qualisImg {
+			display: none;
+		}
+}
