@@ -4,7 +4,7 @@ import Cards from "../Cards/Cards"
 
 const Projects = () => {
     return (
-    <div className={styles.container}>
+    <div className= {styles.container}> 
         <h2 className="text-center my-4">Projetos</h2>
         <div className="row flex flex-wrap">
         {Cards.map((projeto, index) => (

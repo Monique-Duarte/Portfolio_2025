@@ -4,7 +4,6 @@
 .header {
     background-color: black;
     color: white;
-    max-height: 300px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -15,11 +14,12 @@
     background-color: transparent;
     text-align: justify;
     padding: 0px;
+    margin-bottom: 16px;
 }
 
-.p {
-    font-size: 1.2em;
-    line-height: .5;
+.id p {
+    font-size: 1.4em;
+    line-height: 0.7;
 }
 
 .profile img {
@@ -32,8 +32,8 @@
 }
 
 .profile__image img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin-left: 16px;
     margin-right: 16px;
 }
