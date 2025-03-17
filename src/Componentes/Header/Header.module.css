@@ -3,11 +3,13 @@
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
 .header {
-  background-color: black;
+    background-color: #000916;
+  margin-left: 70px;
   color: white;
   margin-bottom: 10px;
   display: flex;
   position: relative; /* Necessário para posicionar os elementos filhos de forma relativa a ele */
+  box-shadow: 0 3PX 0 #002D49;
 }
 
 .id h1 {
@@ -18,6 +20,7 @@
 }
 
 .id p {
+  display: flexbox;
   font-size: 1.4em;
   line-height: 0.7;
 }
@@ -47,40 +50,60 @@
 }
 
 .profile__info {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 70px;
   display: flex;
   padding: 1%;
 }
 
-.container {
-  margin-top: 48px;
-  width: 95%;
-}
-
 @media (max-width: 767px) {
+  .profile__info {
+    width: 100vw;
+    max-width: 90%;
+  }
+
+  .container {
+    margin-top: 48px;
+    width: 100vw;
+    max-width: 100%;
+  }
+
   .header {
     width: 100%;
-		height: 200px;
+    max-width: 90%;
+		height: 220px;
+    margin-left: 40px;
   }
 
   .profile__image {
-    width: 110px;
-    height: 110px;
-    margin-right: 15px;
+    width: 80px;
+    height: 80px;
+    margin-right: 0px;
     margin-top: 10px;
   }
 
-  .id h1 {
-    font-size: 1em;
-    line-height: 0;
-    margin: 0 0 0;
+
+  .id {
+    line-height: 1.5;
     padding: 5px;
+    margin: 0 0 0;
+    width: 100%;
+    display: inline;
+    font-size: 0.5em;
   }
 
   .id p {
-    font-size: 0.6em;
+    line-height: 1.2;
+    margin-right: 5px;
+  }
+
+  .id h1 {
+    font-size: 2em;
     line-height: 0;
-    margin: 0 0 0;
-    display: inline;
+    margin: 0px 0px 10px;
+    padding: 5px;
+    
   }
 
   .container {
@@ -95,5 +118,11 @@
     right: 0;
     margin: 0;
 		padding: 0;
+  }
+
+  .contact {
+    left: 0;
+    margin-top: 0px;
+    width: 200px;
   }
 }

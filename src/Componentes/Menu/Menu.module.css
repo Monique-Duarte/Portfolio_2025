@@ -1,0 +1,46 @@
+/* Estilo quando o menu está expandido */
+.menuLateralExpandir {
+  transition: 1s;
+  box-shadow: 3px 0 0 #0074ae;
+}
+
+/* Estilos da barra lateral (menu) */
+.menuLateral {
+  width: 70px; /* Inicialmente a largura é de 60px */
+  height: 100%;
+  background-color: #000916;
+  box-shadow: 3px 0 0 #002D49;
+  white-space: nowrap;
+  transition: .9s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 4;
+  transition: width 0.9s ease-in-out;
+}
+
+.menuLateralUl{
+  padding: 0;
+}
+
+/* Estilos do cabeçalho da barra lateral */
+.expansivel i,
+.menuLateralUlLi{
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  width: 100%;
+  padding: 0;
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 5px 5px 1%;
+}
+
+@media (max-width: 767px) {
+.menuLateral {
+  width: 40px; 
+}
+}

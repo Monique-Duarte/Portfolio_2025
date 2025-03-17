@@ -1,25 +1,30 @@
-body {
-    background-image: url(/img/const.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .container {
-    padding: 20px;
+	margin-left: 200px;
+	width: 100%;
+	max-width: 100%;
+	padding: 20px;
+	margin-left: 70px;
+	background-color: #000916;
 }
 
 .container h2 {
-    align-items: center;
-    text-align: center;
-    background-color: rgb(20, 20, 20);
-    color: #fff;
+	align-items: center;
+	text-align: center;
+	background-color: #000916;
+	color: #fff;
 }
 
-
 .row {
-    --bs-gutter-x: 5rem;
-    max-width: 70%;
-    margin: 0 auto;
-    border-radius: 8px;
-    --bs-card-bg: unset;
+	--bs-gutter-x: 5rem;
+	max-width: 50%;
+	margin: 0 auto;
+	border-radius: 8px;
+	--bs-card-bg: unset;
+}
+
+@media (max-width: 767px) {
+	.container {
+		margin-left: 40px;
+		margin-top: 0;
+	}
 }
