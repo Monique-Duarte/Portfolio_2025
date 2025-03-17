@@ -1,5 +1,4 @@
 import styles from '../Header.module.css';
-// import BaixarCurriculo from "../../Blob/blob";
 
 const Id = () => {
   return (
@@ -10,9 +9,6 @@ const Id = () => {
         <p>Graduanda em Engenharia de Software </p>
         <p>Desenvolvedora Full Stack </p>
         <p>Dev | React | JavaScript | TypeScript | HTML | CSS | SQL | Node.js | Sistema Web </p>
-        {/* <h3 className='p-2' >
-          <BaixarCurriculo />
-        </h3> */}
       </div>
     </div>
   )
