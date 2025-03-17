@@ -1,13 +1,10 @@
 import React from "react";
 import styles from "./Projects.module.css";
 import Cards from "../Cards/Cards"
-import BaixarCurriculo from "../Blob/blob";
-
 
 const Projects = () => {
     return (
     <div className= {styles.container}> 
-    <h3> <BaixarCurriculo /> </h3>
         <h2 className="text-center">Projetos</h2>
         <div className="row flex flex-wrap">
         {Cards.map((projeto, index) => (

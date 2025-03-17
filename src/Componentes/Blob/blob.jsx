@@ -1,5 +1,6 @@
 import React from 'react';
 import CV from '../../../public/cv.pdf';
+import styles from '../Header/Header.module.css';
 
 const BaixarCurriculo = () => {
   const handleDownload = () => {
@@ -12,8 +13,8 @@ const BaixarCurriculo = () => {
   };
 
   return (
-    <h3 
-      className="btn border-white border-2 border-solid text-white" 
+    <h3
+      className="btn border-white border-2 border-solid text-white p-1"
       onClick={handleDownload}
       style={{ cursor: 'pointer' }}
     >
