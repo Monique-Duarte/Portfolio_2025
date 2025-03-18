@@ -3,8 +3,8 @@
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
 .header {
-    background-color: #000916;
-  margin-left: 70px;
+  background-color: #000916;
+  width: 100vw;
   color: white;
   margin-bottom: 10px;
   display: flex;
@@ -51,10 +51,9 @@
 
 .profile__info {
   width: 100%;
-  max-width: 100%;
-  margin-left: 70px;
   display: flex;
   padding: 1%;
+  box-sizing: border-box;
 }
 
 @media (max-width: 767px) {

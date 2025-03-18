@@ -1,10 +1,9 @@
 .container {
-	margin-left: 200px;
-	width: 100%;
 	max-width: 100%;
-	padding: 20px;
-	margin-left: 70px;
+	width: 100%;
+	padding: 0%;
 	background-color: #000916;
+	box-sizing: border-box;
 }
 
 .container h2 {
@@ -16,7 +15,6 @@
 
 .row {
 	--bs-gutter-x: 5rem;
-	max-width: 50%;
 	margin: 0 auto;
 	border-radius: 8px;
 	--bs-card-bg: unset;
