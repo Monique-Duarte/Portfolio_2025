@@ -141,3 +141,11 @@
   white-space: normal;
   /* Permite que o texto quebre e ocupe várias linhas */
 }
+
+@media (max-width: 768px) {
+  
+  .container {
+    max-width: 100%;
+  }
+
+}
