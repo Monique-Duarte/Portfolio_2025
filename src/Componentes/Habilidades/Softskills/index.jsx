@@ -3,7 +3,7 @@ import Soft from './SoftHabilidade';
 
 const Softskills = () => {
   return (
-    <div className={styles.container} >
+    <div className={styles.container}>
       <div className={styles.conteudo}>
         <div className={styles.soft}>
           <div className={styles.imageheart}>
@@ -18,10 +18,10 @@ const Softskills = () => {
                 <div className={styles.softItens} key={index}>
                   <div className={styles.flip}>
                     <div className={styles.frente}>
-                      <h3>{item.nome}</h3>
+                      <h3>{item.nome}</h3> {/* Nome na frente */}
                     </div>
                     <div className={styles.tras}>
-                      <h3>{item.descricao}</h3>
+                      <h3>{item.descricao}</h3> {/* Descrição atrás */}
                     </div>
                   </div>
                 </div>
@@ -31,7 +31,7 @@ const Softskills = () => {
         </div>
       </div>
     </div>
-  )
+  );
 };
 
 export default Softskills;
