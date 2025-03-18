@@ -26,6 +26,16 @@
   margin-bottom: 60px;
 }
 
+@keyframes aumentar {
+  0%{
+      transform: scale(1);;
+  }
+
+  100%{
+      transform: scale(1.08);
+  }
+}
+
 /* Ajuste das imagens */
 .imageheart img,
 .imagebrain img {
@@ -94,20 +104,21 @@
 /* Definição do estilo da frente e da parte de trás */
 .frente,
 .tras {
+   background-color: #151515;
   position: absolute;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden; /* Esconde o conteúdo da parte de trás enquanto gira */
-  border-radius: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0px 0px 10px #000000;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .frente {
   background-color: #0073a8;
   font-size: 17px;
+  backface-visibility: hidden; /* Esconde o conteúdo da parte de trás enquanto gira */
+  border-radius: 10%;
 }
 
 .tras {

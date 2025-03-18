@@ -15,7 +15,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 1000px;
+  max-width: 70%;
+  font-size: 1.2em;
+  text-align: center;
 }
 
 .texto h1 {
