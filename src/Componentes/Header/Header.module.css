@@ -1,15 +1,30 @@
-/* Header.module.css */
-
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
-.header {
+.container {
+  max-width: 100%;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
   background-color: #000916;
-  width: 100vw;
-  color: white;
-  margin-bottom: 10px;
   display: flex;
+  box-shadow: 0 3px 0 0 #002D49;
   position: relative; /* Necessário para posicionar os elementos filhos de forma relativa a ele */
-  box-shadow: 0 3PX 0 #002D49;
+  & *{overflow-y: hidden;};
+}
+
+.profile__info {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  padding: 1%;
+  margin: 0%;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+.header {
+  color: white;
+  max-width: 85%;
 }
 
 .id h1 {
@@ -22,7 +37,7 @@
 .id p {
   display: flexbox;
   font-size: 1.4em;
-  line-height: 0.7;
+  line-height: 1;
 }
 
 .id {
@@ -39,22 +54,17 @@
   display: inline-flex;
   flex-wrap: wrap;
   position: absolute; /* Agora fica fixo em relação ao header */
-  bottom: 0; /* Fixa no fundo do header */
+  top: 0; /* Fixa em cima do header */
+  margin-top: 60px;
   right: 0;
-  margin-top: 15px;
   width: 160px;
+  & *{overflow-y: hidden;};
 }
 
 .contact a {
   color: white;
 }
 
-.profile__info {
-  width: 100%;
-  display: flex;
-  padding: 1%;
-  box-sizing: border-box;
-}
 
 @media (max-width: 767px) {
   .profile__info {

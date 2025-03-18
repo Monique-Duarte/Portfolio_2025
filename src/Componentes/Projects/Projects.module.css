@@ -1,28 +1,92 @@
 .container {
-	max-width: 100%;
-	width: 100%;
-	padding: 0%;
-	background-color: #000916;
-	box-sizing: border-box;
+  max-width: 100%;
+  width: 100vw;
+  padding: 0%;
+  background-color: #000916;
+  display: flex;
+  flex-wrap: wrap; /* Permite a quebra de linha */
+  justify-content: center; /* Centraliza os cards dentro do container */
 }
 
 .container h2 {
-	align-items: center;
-	text-align: center;
-	background-color: #000916;
-	color: #fff;
+  text-align: center;
+  background-color: #000916;
+  color: #fff;
 }
 
-.row {
-	--bs-gutter-x: 5rem;
-	margin: 0 auto;
-	border-radius: 8px;
-	--bs-card-bg: unset;
+.cards {
+	justify-content: space-around;
+	max-width: 90%;
+}
+
+.card {
+  background-color: #002D49;
+  border-radius: 8px;
+	width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  margin: 10px; /* Espaçamento entre os cards */
+  flex: 1 1 250px; /* Garante que os cards tenham uma largura mínima e se ajustem */
+}
+
+.card:hover {
+  transform: scale(1.05); /* efeito de zoom ao passar o mouse */
+}
+
+.card-header {
+  background-color: #002D49;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%; 
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-github {
+  background-color: #333;
+}
+
+.btn-github:hover {
+  background-color: #555;
+}
+
+.links {
+	text-decoration: none;
 }
 
 @media (max-width: 767px) {
-	.container {
-		margin-left: 40px;
-		margin-top: 0;
-	}
+  .container {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .card {
+    max-width: 100%; /* No celular, cards ocupam toda a largura */
+  }
 }

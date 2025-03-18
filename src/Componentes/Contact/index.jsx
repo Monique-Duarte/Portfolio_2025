@@ -1,5 +1,5 @@
-import styles from '../Header.module.css';
-import BaixarCurriculo from "../../Blob/blob";
+import styles from '../Header/Header.module.css';
+import BaixarCurriculo from "../Blob/blob";
 
 const Contact = () => {
   return (

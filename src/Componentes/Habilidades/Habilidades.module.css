@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+  text-align: center;
+  width: 100%;
+  background-color: #002D49;
+  & * {
+    overflow-y: hidden;
+  };
+}
+
+.texto {
+  position: relative;
+  padding-bottom: 100px;
+  color: #fff;
+}
+
+/* Alinhamento das seções */
+.soft,
+.hard {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+/* Ajuste das imagens */
+.imageheart img,
+.imagebrain img {
+  position: relative;
+  width: 500px;
+  height: auto;
+  animation: aumentar 1s ease-in-out infinite alternate;
+}
+
+/* Ajuste da seção de Soft Skills e Hard Skills */
+.softSection,
+.hardSection {
+  flex: 1;
+  justify-content: space-around;
+  text-align: left;
+  max-width: 600px;
+}
+
+/* Ajuste do texto */
+.softSection .texto h1,
+.hardSection .texto h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Ajuste da lista de habilidades */
+.softBox,
+.hardBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.softItens,
+.hardItens {
+  display: flex;
+  flex-direction: column;
+  width: 173px;
+  height: 173px;
+  padding: 10px;
+  border-radius: 10%;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 15px;
+  perspective: 1000px;
+  /* Adiciona a perspectiva 3D no container de cada card */
+}
+
+.flip {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.softItens:hover .flip,
+.hardItens:hover .flip {
+  transform: rotateY(180deg);
+  /* Aplica a rotação no elemento flip */
+}
+
+/* Definição do estilo da frente e da parte de trás */
+.frente,
+.tras {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  /* Esconde o conteúdo da parte de trás enquanto gira */
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.frente {
+  background-color: #0073a8;
+  font-size: 17px;
+}
+
+.tras {
+  background-color: #004161;
+  transform: rotateY(180deg);
+  /* A parte de trás começa rotacionada */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  /* Adiciona espaçamento ao redor do texto */
+  text-align: center;
+}
+
+/* Ajuste do texto na parte de trás */
+.tras h3 {
+  max-width: 160px;
+  font-size: 17px;
+  line-height: 1.5;
+  white-space: normal;
+  /* Permite que o texto quebre e ocupe várias linhas */
+}

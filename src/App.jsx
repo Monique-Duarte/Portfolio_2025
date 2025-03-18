@@ -1,18 +1,12 @@
-import Header from "./Componentes/Header/Header";
-import Projects from "./Componentes/Projects/Projects";
-import Footer from "./Componentes/Footer/Footer";
-import Menu from "./Componentes/Menu/Menu";
+import Footer from "./Componentes/Footer";
 import "./App.css"
+import Corpo from "./Pagina/Corpo/Corpo";
 
 function App() {
   return (
     <>
       <main className="main">
-        <div style={{ backgroundColor: "#000916" }}>
-          <Menu />
-        </div>
-        <Header />
-        <Projects />
+        <Corpo />
       </main>
       <Footer />
     </>
