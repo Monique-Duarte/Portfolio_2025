@@ -71,7 +71,7 @@ export default [
 	},
 	{
 		title: "Ebac Motors",
-		imgSrc: "/img/project/carro.png",
+		imgSrc: "/img/project/carro.svg",
 		alt: "Carro",
 		siteLink: "https://ebac-motors-six-alpha.vercel.app/",
 		githubLink: "https://github.com/Monique-Duarte/Ebac-Motors.git",

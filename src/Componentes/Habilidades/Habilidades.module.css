@@ -2,150 +2,75 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px 0;
   text-align: center;
   width: 100%;
   background-color: #002D49;
   & * {
     overflow-y: hidden;
-  };
+  }
+  ;
 }
 
 .texto {
+  text-align: center;
   position: relative;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   color: #fff;
 }
 
-/* Alinhamento das seções */
-.soft,
-.hard {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-bottom: 60px;
-}
-
-@keyframes aumentar {
-  0%{
-      transform: scale(1);;
-  }
-
-  100%{
-      transform: scale(1.08);
-  }
-}
-
-/* Ajuste das imagens */
-.imageheart img,
-.imagebrain img {
+.titulo {
   position: relative;
-  width: 500px;
-  height: auto;
-  animation: aumentar 1s ease-in-out infinite alternate;
+  padding: 0 0 0;
 }
 
-/* Ajuste da seção de Soft Skills e Hard Skills */
-.softSection,
-.hardSection {
-  flex: 1;
-  justify-content: space-around;
-  text-align: left;
-  max-width: 600px;
-}
-
-/* Ajuste do texto */
-.softSection .texto h1,
-.hardSection .texto h1 {
-  font-size: 30px;
+.titulo h1 {
+  position: relative;
+  display: inline-block;
+  font-size: 50px;
   margin-bottom: 10px;
   text-align: center;
 }
 
-/* Ajuste da lista de habilidades */
-.softBox,
-.hardBox {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-
-/* Ajuste da lista de habilidades */
-.softItens,
-.hardItens {
-  display: flex;
-  flex-direction: column;
-  width: 173px;
-  height: 173px;
-  padding: 10px;
-  border-radius: 10%;
-  align-items: center;
-  justify-content: space-evenly;
-  text-align: center;
-  font-size: 15px;
-  perspective: 1000px; /* Adiciona a perspectiva 3D no container de cada card */
-}
-
-.flip {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-  transform-style: preserve-3d;
-  transition: transform 0.6s;
-}
-
-.softItens:hover .flip,
-.hardItens:hover .flip {
-  transform: rotateY(180deg); /* Aplica a rotação no elemento flip */
-}
-
-/* Definição do estilo da frente e da parte de trás */
-.frente,
-.tras {
-   background-color: #151515;
+.titulo h1::after {
+  content: "";
+  width: 0%;
+  height: 4px;
+  background-color: #0074ae;
   position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 100%;
+  transition: width 0.5s ease-in-out;
+  box-shadow: 0 0 8px #00aaff;
+}
+
+.titulo h1:hover::after {
   width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  border-radius: 5px;
-  overflow: hidden;
 }
 
-.frente {
-  background-color: #0073a8;
-  font-size: 17px;
-  backface-visibility: hidden; /* Esconde o conteúdo da parte de trás enquanto gira */
-  border-radius: 10%;
+/* Ajuste das imagens */
+
+@keyframes aumentar {
+  0% {
+    transform: scale(1);
+    ;
+  }
+
+  100% {
+    transform: scale(1.08);
+  }
 }
 
-.tras {
-  background-color: #004161;
-  transform: rotateY(180deg); /* A parte de trás começa rotacionada */
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  /* Adiciona espaçamento ao redor do texto */
-  text-align: center;
-}
+.image img {
+  position: relative;
+  width: 500px;
+  height: auto;
 
-/* Ajuste do texto na parte de trás */
-.tras h3 {
-  max-width: 160px;
-  font-size: 17px;
-  line-height: 1.5;
-  white-space: normal;
-  /* Permite que o texto quebre e ocupe várias linhas */
+  animation: aumentar 1s ease-in-out infinite alternate;
 }
 
 @media (max-width: 768px) {
-  
   .container {
     max-width: 100%;
   }
-
 }

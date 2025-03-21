@@ -1,37 +1,15 @@
-import styles from '../Habilidades.module.css';
-import Soft from './SoftHabilidade';
+import React from 'react';
+import SkillsSection from './SkillsSection';  // Importando SkillsSection do arquivo correto
+import { heartImage } from '/public/HEART.png'; // Importando a imagem
 
-const Softskills = () => {
+const SoftSkills = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.conteudo}>
-        <div className={styles.soft}>
-          <div className={styles.imageheart}>
-            <img src="../../public/HEART.png" alt="Imagem de coração" />
-          </div>
-          <div className={styles.softSection}>
-            <div className={styles.texto}>
-              <h1><i className="bi bi-puzzle-fill"></i> Soft Skills</h1>
-            </div>
-            <div className={styles.softBox}>
-              {Soft.map((item, index) => (
-                <div className={styles.softItens} key={index}>
-                  <div className={styles.flip}>
-                    <div className={styles.frente}>
-                      <h3>{item.nome}</h3> {/* Nome na frente */}
-                    </div>
-                    <div className={styles.tras}>
-                      <h3>{item.descricao}</h3> {/* Descrição atrás */}
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <SkillsSection
+      titulo="Soft Skills"
+      icone="bi bi-heart-fill"
+      imagem={heartImage} // Passando a imagem
+    />
   );
 };
 
-export default Softskills;
+export default SoftSkills;
