@@ -1,6 +1,6 @@
 import React from 'react';
 import CV from '../../../public/cv.pdf';
-import styles from '../Header/Header.module.css';
+
 
 const BaixarCurriculo = () => {
   const handleDownload = () => {

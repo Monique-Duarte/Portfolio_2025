@@ -10,3 +10,4 @@ const Carousel = ({ settings, children }) => {
 };
 
 export default Carousel;
+

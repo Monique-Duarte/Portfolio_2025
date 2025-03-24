@@ -1,0 +1,35 @@
+.id_img {
+  width: 250px;
+  height: 250px;
+  padding: 1%;
+  margin-top: 5px;
+}
+
+.text {
+  padding: 5%;
+}
+
+@media (max-width: 768px) {
+  .id_img {
+    width: 100px;
+    height: 100px;
+    padding: 1%;
+  }
+
+  .titulo {
+    font-size: 1.2em;
+  }
+
+  .text {
+    padding: 0%;
+    margin: 0 0 0;
+    width: 250px;
+    right: 10px;
+  }
+
+  .container {
+    padding: 0 0 0;
+  }
+
+
+}
