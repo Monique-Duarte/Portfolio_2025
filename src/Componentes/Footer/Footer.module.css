@@ -16,7 +16,7 @@
 
 @media (max-width: 767px) {
 	.footer {
-		margin: 0 43px 0px;
+		justify-content: center;
 		width: 100%;
 		max-width: 100%;
 	}

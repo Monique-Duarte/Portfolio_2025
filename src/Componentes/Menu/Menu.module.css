@@ -14,7 +14,7 @@
   transition: .9s;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   overflow: hidden;
   z-index: 4;
   transition: width 0.9s ease-in-out;

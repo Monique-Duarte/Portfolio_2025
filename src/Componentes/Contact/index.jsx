@@ -3,7 +3,7 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <div className="contact text-white relative w-[160px] flex ">
+    <div className="contact flex text-white relative">
         <div className=" text-white">
           <a
             href="https://www.instagram.com/duartt.monique/"

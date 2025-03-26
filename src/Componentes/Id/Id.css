@@ -5,8 +5,9 @@
   margin-top: 5px;
 }
 
-.text {
-  padding: 5%;
+.id {
+  justify-content: center;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -14,22 +15,10 @@
     width: 100px;
     height: 100px;
     padding: 1%;
+    margin-right: 20px;
   }
 
-  .titulo {
-    font-size: 1.2em;
-  }
-
-  .text {
-    padding: 0%;
-    margin: 0 0 0;
-    width: 250px;
-    right: 10px;
-  }
-
-  .container {
-    padding: 0 0 0;
-  }
-
-
+  .id {
+    max-width: 85%;
+}
 }

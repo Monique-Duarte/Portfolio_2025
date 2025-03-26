@@ -7,8 +7,12 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-left: 20px;
     max-width: 100%;
-    justify-content: center;
+    left: -20px;
+  }
+
+  .btn {
+    width: 100px;
+    left: 5px;
   }
 }
