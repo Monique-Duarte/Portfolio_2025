@@ -1,0 +1,19 @@
+{
+  "translation": {
+    "header": "Portefeuille",
+    "footer": "© 2025 Tous droits réservés.",
+    "id": {
+      "graduacao": "Étudiant en Master en Génie Logiciel",
+      "area": "Développeuse Front-end",
+      "tags": "Dev | React | JavaScript | TypeScript | HTML | CSS | Node.js | Système Web"
+    },
+    "sobre": {
+      "sobre": "Qui suis-je ?",
+      "quemEuSou": "Je m'appelle Monique Duarte, j'ai 29 ans et je suis étudiante en Postgraduation en Génie Logiciel. De plus, je suis Zootecniste, diplômée de l'UFPel et titulaire d'un Master de l'USP. Actuellement, je cherche une opportunité pour travailler en tant que développeuse junior. Je suis passionnée par la technologie et toujours motivée par la curiosité et la recherche constante d'apprentissage, en particulier dans les domaines du développement, de l'automatisation, de l'IA et de l'innovation. Je suis le genre de personne qui, si je ne sais pas quelque chose, cherche à apprendre ou à résoudre le problème, toujours prête à apporter de la valeur là où je me trouve.",
+      "oQueFaco": "Que fais-je aujourd'hui ?",
+      "atualmente": "Actuellement, je fais un stage dans le domaine du support et du front-end, travaillant avec l'équipe de support et d'ingénierie sur l'analyse et la qualité des projets. Mon objectif est de rechercher des solutions automatisées, d'apprendre avec React et de faire des tests qui optimisent les processus et améliorent l'efficacité du travail, tant pour moi que pour mes collègues.",
+      "quaisObj": "Quels sont mes objectifs ?",
+      "objetivos": "Je cherche toujours de nouveaux défis et des opportunités pour appliquer et élargir mes connaissances. Mon objectif principal à ce moment est d'acquérir de l'expérience et de progresser professionnellement dans le domaine de la programmation, d'élargir mes compétences et de solidifier ma carrière dans la technologie."
+    }
+  }
+}

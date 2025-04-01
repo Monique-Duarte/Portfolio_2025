@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from "../Carousel/index"; // Importando o componente Carousel
 import Cards from "../Cards/Cards";
-import './project.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "./project.css";
 
 const Projects = () => {
   // Configurações do carrossel
@@ -37,19 +37,19 @@ const Projects = () => {
   };
 
   return (
-    <div id="Projetos" className="project container w-full max-w-[80vw] bg-[#000916] justify-center">
+    <div id="Projetos" className="container project w-full max-w-[80vw] bg-[#000916] justify-center">
       <h2 className="text-white p-2 text-center">Projetos</h2>
       <div className="flex h-full project">
-        <div className="h-full">
+        <div className="project h-[80%]">
           {/* Passe a configuração para o Carousel */}
           <Carousel settings={settings}>
             {/* Criação dos Cards */}
             {Cards.map((projeto, index) => (
-              <div className="sm:w-1/2 md:w-1/4 lg:w-1/5 xl:w-1/6 p-2" key={index}>
-                <div className="bg-[#002D49] rounded-lg shadow-md transition-transform duration-200 hover:scale-105">
+              <div className="project h-[300px] p-2" key={index}>
+                <div className="bg-[#002D49] rounded-lg shadow-md transition-transform duration-200 hover:scale-105 project">
                   <div className="text-white p-2 rounded-t-lg">{projeto.title}</div>
                   <img
-                    className="bg-white rounded-t-lg"
+                    className="bg-white rounded-t-lg img_card"
                     src={projeto.imgSrc}
                     alt={projeto.alt || "image Project"}
                   />

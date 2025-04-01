@@ -14,9 +14,9 @@ const BaixarCurriculo = () => {
 
   return (
     <h3
-      className="btn border-white border-2 border-solid text-white p-1"
+      className="btn border-white text-white p-0"
       onClick={handleDownload}
-      style={{ cursor: 'pointer' }}
+      style={{ cursor: 'pointer', flexWrap: 'wrap' }}
     >
       Baixar Curriculo
     </h3>

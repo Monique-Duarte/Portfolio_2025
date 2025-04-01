@@ -1,0 +1,19 @@
+{
+  "translation": {
+    "header": "Portafoglio",
+    "footer": "© 2025 Tutti i diritti riservati.",
+    "id": {
+      "graduacao": "Studente di Laurea Magistrale in Ingegneria del Software",
+      "area": "Sviluppatrice Front-end",
+      "tags": "Dev | React | JavaScript | TypeScript | HTML | CSS | Node.js | Sistema Web"
+    },
+    "sobre": {
+      "sobre": "Chi sono?",
+      "quemEuSou": "Mi chiamo Monique Duarte, ho 29 anni e sono una studentessa di Post-laurea in Ingegneria del Software. Inoltre, sono laureata in Zootecnia presso l'UFPel e ho un Master presso l'USP. Attualmente, sto cercando un'opportunità per lavorare come sviluppatrice junior. Mi sono innamorata della tecnologia e sono sempre motivata dalla curiosità e dalla continua ricerca di apprendimento, in particolare nelle aree dello sviluppo, dell'automazione, dell'IA e dell'innovazione. Sono il tipo di persona che, se non so qualcosa, cerco di imparare o risolvere il problema, sempre pronta ad aggiungere valore dove mi trovo.",
+      "oQueFaco": "Cosa faccio oggi?",
+      "atualmente": "Attualmente, sto facendo uno stage nell'area del supporto e del front-end, lavorando con il team di supporto e ingegneria nell'analisi e qualità dei progetti. Il mio obiettivo è cercare soluzioni automatizzate, imparare con React e fare test che ottimizzino i processi e migliorino l'efficienza del lavoro, sia per me che per i miei colleghi.",
+      "quaisObj": "Quali sono i miei obiettivi?",
+      "objetivos": "Sono sempre alla ricerca di nuove sfide e opportunità per applicare ed espandere le mie conoscenze. Il mio obiettivo principale in questo momento è acquisire esperienza e crescere professionalmente nel campo della programmazione, ampliando le mie competenze e consolidando la mia carriera nella tecnologia."
+    }
+  }
+}

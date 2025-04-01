@@ -1,19 +1,8 @@
-.project {
-
-  justify-content: space-around;
-
-  & ul{
-    display: none;
-  }
+.img_card {
+  height: 250px;
+  width: 250px;
 }
 
-.slick-dots {
-  display: none !important;
-}
-
-
-@media (max-width: 768px) {
-  .slick-slide{
-  width: 50%;
- }
+.slick-slider, .slick-slider * {
+  overflow-y: hidden;
 }
