@@ -15,7 +15,8 @@ const Header = () => {
                     color: 'white',
                     margin: 0,
                     boxShadow: 'inset 0 0 0 3px #002D49',
-                    padding: '5px'
+                    padding: '5px',
+                    zIndex:1
                 }}
             >
                 {t('header')}

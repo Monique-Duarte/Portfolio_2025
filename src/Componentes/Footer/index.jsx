@@ -1,12 +1,13 @@
 import React from "react";
-import styles from "./Footer.module.css";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-    return (
-    <footer className={styles.footer}>
-        <p>© 2025 Todos os direitos reservados.</p>
+  const { t } = useTranslation(); // Adicione esta linha para obter a função t
+  return (
+    <footer className=" mx-5 md:mx-50">
+      {t('footer')}
     </footer>
-    );
+  );
 };
 
 export default Footer;

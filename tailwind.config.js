@@ -3,7 +3,11 @@ module.exports = {
     "./src/**/*.{html,js,jsx}", // Caminho dos arquivos que contêm classes Tailwind
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'winky': ['"Winky Sans"', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
+      }
   },
   screens: {
     xs: '576px',
@@ -14,4 +18,5 @@ module.exports = {
     '2xl': '1536px',
   },
   plugins: [],
+}
 }

@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build:css": "tailwindcss -i ./src/styles.css -o ./src/css/styles.css --watch",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -13,6 +12,7 @@
   "dependencies": {
     "@ljharb/tsconfig": "^0.2.3",
     "@tailwindcss/cli": "^4.0.14",
+    "@tailwindcss/vite": "^4.1.1",
     "@vercel/speed-insights": "^1.2.0",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
@@ -43,7 +43,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
-    "tailwindcss": "^3.4.17",
+    "tailwindcss": "^4.0.00",
     "vite": "^6.1.0"
   },
   "babel": {

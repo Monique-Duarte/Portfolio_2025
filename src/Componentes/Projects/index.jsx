@@ -4,8 +4,12 @@ import Cards from "../Cards/Cards";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./project.css";
+import { useTranslation } from "react-i18next";
+
 
 const Projects = () => {
+
+  const { t } = useTranslation(); // Adicione esta linha para obter a função t
   // Configurações do carrossel
   const settings = {
     dots: true, // Adiciona os pontos de navegação
@@ -38,7 +42,7 @@ const Projects = () => {
 
   return (
     <div id="Projetos" className="container project w-full max-w-[80vw] bg-[#000916] justify-center">
-      <h2 className="text-white p-2 text-center">Projetos</h2>
+      <h2 className="p-2 text-center">{t('projetos')}</h2>
       <div className="flex h-full project">
         <div className="project h-[80%]">
           {/* Passe a configuração para o Carousel */}
@@ -47,7 +51,7 @@ const Projects = () => {
             {Cards.map((projeto, index) => (
               <div className="project h-[300px] p-2" key={index}>
                 <div className="bg-[#002D49] rounded-lg shadow-md transition-transform duration-200 hover:scale-105 project">
-                  <div className="text-white p-2 rounded-t-lg">{projeto.title}</div>
+                  <div className="p-2 rounded-t-lg">{projeto.title}</div>
                   <img
                     className="bg-white rounded-t-lg img_card"
                     src={projeto.imgSrc}
@@ -58,7 +62,7 @@ const Projects = () => {
                       href={projeto.siteLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="border border-gray-800 text-white py-1 px-3 no-underline rounded"
+                      className="border border-gray-800 py-1 px-3 no-underline rounded"
                     >
                       Site
                     </a>
@@ -66,7 +70,7 @@ const Projects = () => {
                       href={projeto.githubLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="border border-gray-800 text-white py-1 no-underline px-3 rounded"
+                      className="border border-gray-800 py-1 no-underline px-3 rounded"
                     >
                       GitHub
                     </a>
