@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'winky': ['"Winky Sans"', 'sans-serif'],
-        'roboto': ['Roboto', 'sans-serif'],
+        winky: ['"Winky Sans"', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
       }
   },
   screens: {

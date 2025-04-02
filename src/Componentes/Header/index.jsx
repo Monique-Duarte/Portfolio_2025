@@ -1,30 +1,18 @@
 import React from 'react';
 import Id from '../Id';
-import Contact from '../Contact';
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {
-    const { t } = useTranslation(); // Adicione esta linha para obter a função t
+  const { t } = useTranslation(); // Adicione esta linha para obter a função t
 
-    return (
-        <>
-            <h1
-                style={{
-                    textAlign: 'center',
-                    backgroundColor: '#000916',
-                    color: 'white',
-                    margin: 0,
-                    boxShadow: 'inset 0 0 0 3px #002D49',
-                    padding: '5px',
-                    zIndex:1
-                }}
-            >
-                {t('header')}
-            </h1>
-            <Id />
-            <Contact />
-        </>
-    );
+  return (
+    <>
+      <h1 className='font-winky text-center shadow-[inset_0_0_0_3px_#002D49] p-1 m-auto'>
+        {t('header')}
+      </h1>
+      <Id />
+    </>
+  );
 };
 
 export default Header;
