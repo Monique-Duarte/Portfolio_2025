@@ -1,6 +1,6 @@
 import "./App.css"
 import Footer from "./Componentes/Footer";
-import Corpo from "./Pagina/Corpo/Corpo";
+import Corpo from "./Pagina/index";
 import './Componentes/lib/i18n';
 import Menu from "./Componentes/Menu/index";
 

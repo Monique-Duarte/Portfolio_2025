@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const Footer = () => {
   const { t } = useTranslation(); // Adicione esta linha para obter a função t
   return (
-    <footer className=" mx-5 md:mx-50">
+    <footer className="mx-auto w-full max-w-[80vw]">
       {t('footer')}
     </footer>
   );

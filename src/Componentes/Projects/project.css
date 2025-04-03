@@ -1,8 +1,12 @@
 .img_card {
-  height: 250px;
+  height: 100%;
   width: 250px;
 }
 
 .slick-slider, .slick-slider * {
   overflow-y: hidden;
+}
+
+a {
+  text-decoration: none;
 }

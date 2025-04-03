@@ -1,0 +1,43 @@
+/* FlipCard.css */
+
+.flip-container {
+  perspective: 1000px; /* Define a profundidade do efeito 3D */
+  width: 200px; /* Defina um tamanho fixo para o flip */
+  height: 300px; /* Defina um tamanho fixo para o flip */
+}
+
+.flip-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d; /* Permite a rotação no eixo Y */
+  transition: transform 0.5s; /* Define o tempo da transição */
+}
+
+.flip-container.flipped .flip-card {
+  transform: rotateY(180deg); /* Rotaciona a carta no eixo Y */
+  overflow-y: hidden;
+}
+
+.flip-container,
+.flip-container.flipped{
+  overflow-y: hidden;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Esconde a face de trás quando virada */
+}
+
+.flip-card-back {
+  transform: rotateY(180deg); /* Coloca o verso da carta de cabeça para baixo quando virado */
+}
+
+.flip-card img {
+  width: 100%; /* Faz com que as imagens ocupem toda a área */
+  height: 100%; /* Garante que a imagem ocupe toda a altura do contêiner */
+  object-fit: cover; /* Garante que a imagem cubra completamente o espaço */
+}

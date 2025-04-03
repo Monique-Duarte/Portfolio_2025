@@ -12,7 +12,7 @@ const LanguageSelector = ({ languages, menuVisible, toggleMenu, handleLanguageCh
         {languages.map((language) => (
           <div
             key={language.value}
-            className="flex items-center p-2 cursor-pointer h-full"
+            className="flex items-center mb-2 cursor-pointer h-full"
             onClick={() => handleLanguageChange(language.value)}
           >
             <img width={30} src={language.img} alt={language.value} className="w-5 mr-2" />

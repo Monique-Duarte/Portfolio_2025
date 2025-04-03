@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../../Componentes/Header';
-import Projects from '../../Componentes/Projects';
-import SobreMim from '../../Componentes/Sobre';
+import Header from '../Componentes/Header';
+import Projects from '../Componentes/Projects';
+import SobreMim from '../Componentes/Sobre';
 
 const Corpo = () => {
 	return (

@@ -34,7 +34,7 @@ const Menu = () => {
 
   return (
     <header>
-      <nav className="fixed ml-3 top-2/3 transform -translate-y-1/2 p-0 h-full">
+      <nav className="fixed ml-2 top-2/3 transform -translate-y-1/2 p-0 h-full">
         <div className="top-1/2 transform -translate-y-1/2">
           <i className="bi bi-list p-0 h-fit fs-3 cursor-pointer m-0" onClick={() => setIsExpanded(!isExpanded)}></i>
         </div>
