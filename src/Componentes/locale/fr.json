@@ -8,12 +8,13 @@
       "tags": "Dev | React | JavaScript | TypeScript | HTML | CSS | Node.js | Système Web"
     },
     "sobre": {
+      "sobreMim": "À propos de moi",
       "sobre": "Qui suis-je ?",
-      "quemEuSou": "Je suis Monique Duarte, 29 ans, étudiante en Master d'Ingénierie Logicielle à la PUC Minas, Zootecnicienne et titulaire d'un Master en Sciences de l'USP. Je cherche une opportunité en tant que développeuse junior, passionnée par la technologie, avec un accent sur le développement, l'automatisation, l'IA et l'innovation.",
-      "oQueFaco": "Que fais-je actuellement ?",
-      "atualmente": "Actuellement, je suis stagiaire dans le domaine du support et du front-end, collaborant avec les équipes de support et d'ingénierie pour l'analyse et la qualité des projets. Mon objectif est de travailler sur des solutions automatisées, d'apprendre React et de réaliser des tests qui optimisent les processus et améliorent l'efficacité, tant pour moi que pour mes collègues.",
+      "quemEuSou": "Je suis Monique Duarte, 29 ans, étudiante en Master d'Ingénierie Logicielle à la PUC Minas, Zootechnicienne et titulaire d'un Master en Sciences de l'USP. Je cherche une opportunité en tant que développeuse junior, passionnée par la technologie, avec un accent sur le développement, l'automatisation, l'IA et l'innovation.",
+      "oQueFaco": "Que fais-je aujourd'hui ?",
+      "atualmente": "Actuellement, je suis stagiaire dans le domaine du support et du front-end, collaborant avec les équipes de support et d'ingénierie pour l'analyse et la qualité des projets. Mon objectif est de trouver des solutions automatisées, d'apprendre React et de réaliser des tests qui optimisent les processus et améliorent l'efficacité pour moi et mes collègues.",
       "quaisObj": "Quels sont mes objectifs ?",
-      "objetivos": "Je suis toujours à la recherche de nouveaux défis et d'opportunités pour appliquer et élargir mes connaissances. Mon objectif actuel est d'acquérir de l'expérience et de progresser professionnellement dans le domaine de la programmation, d'améliorer mes compétences et de consolider ma carrière dans la technologie."
+      "objetivos": "Je suis toujours à la recherche de nouveaux défis et opportunités pour appliquer et étendre mes connaissances. Mon objectif actuel est d'acquérir de l'expérience et de progresser professionnellement dans le domaine de la programmation, en améliorant mes compétences et en consolidant ma carrière dans la technologie."
     },
     "projetos": "Projets"
   }

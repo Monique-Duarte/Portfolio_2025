@@ -10,12 +10,13 @@
     },
     "sobre": 
     {
+      "sobreMim": "Sobre mí",
       "sobre": "¿Quién soy?",
-      "quemEuSou": "Soy Monique Duarte, tengo 29 años, estudiante de Posgrado en Ingeniería de Software en la PUC Minas, Zootecnista y Máster en Ciencias por la USP. Busco una oportunidad como desarrolladora junior, apasionada por la tecnología, con enfoque en desarrollo, automatización, IA e innovación.",
+      "quemEuSou": "Soy Monique Duarte, 29 años, estudiante de posgrado en Ingeniería de Software en PUC Minas, Zootecnista y Maestra en Ciencias por la USP. Busco una oportunidad como desarrolladora junior, apasionada por la tecnología, con enfoque en desarrollo, automatización, IA e innovación.",
       "oQueFaco": "¿Qué hago hoy?",
-      "atualmente": "Actualmente, soy pasante en el área de soporte y front-end, colaborando con los equipos de soporte e ingeniería en el análisis y la calidad de proyectos. Mi enfoque está en soluciones automatizadas, aprendiendo React y realizando pruebas que optimicen procesos y mejoren la eficiencia tanto para mí como para mis colegas.",
+      "atualmente": "Actualmente, soy pasante en el área de soporte y front-end, colaborando con los equipos de soporte e ingeniería en el análisis y calidad de proyectos. Mi enfoque está en soluciones automatizadas, aprendizaje de React y pruebas que optimicen procesos y mejoren la eficiencia para mí y mis compañeros.",
       "quaisObj": "¿Cuáles son mis objetivos?",
-      "objetivos": "Siempre estoy buscando nuevos desafíos y oportunidades para aplicar y expandir mis conocimientos. Mi objetivo actual es ganar experiencia y crecer profesionalmente en el campo de la programación, mejorando mis habilidades y consolidando mi trayectoria en la tecnología."
+      "objetivos": "Siempre estoy en busca de nuevos desafíos y oportunidades para aplicar y expandir mis conocimientos. Mi objetivo actual es ganar experiencia y crecer profesionalmente en el área de programación, mejorando mis habilidades y consolidando mi trayectoria en la tecnología."
     },
     "projetos": "Proyectos"
   }

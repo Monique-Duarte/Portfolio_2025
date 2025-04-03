@@ -10,12 +10,13 @@
     },
     "sobre": 
     {
+      "sobreMim": "About me",
       "sobre": "Who am I?",
-      "quemEuSou": "I am Monique Duarte, 29 years old, a postgraduate student in Software Engineering at PUC Minas, a Zootechnician, and a Master's degree holder in Science from USP. I am looking for an opportunity as a junior developer, passionate about technology, with a focus on development, automation, AI, and innovation.",
+      "quemEuSou": "I am Monique Duarte, 29 years old, a graduate student in Software Engineering at PUC Minas, an Animal Scientist, and a Master's in Science graduate from USP. I am looking for an opportunity as a junior developer, passionate about technology, with a focus on development, automation, AI, and innovation.",
       "oQueFaco": "What do I do today?",
-      "atualmente": "Currently, I am an intern in the support and front-end area, collaborating with the support and engineering teams in project analysis and quality. My focus is on automated solutions, learning React, and tests that optimize processes and improve efficiency for me and my colleagues.",
+      "atualmente": "Currently, I am an intern in the support and front-end area, collaborating with the support and engineering teams in the analysis and quality of projects. My focus is on automated solutions, learning React, and tests that optimize processes and improve efficiency for me and my colleagues.",
       "quaisObj": "What are my goals?",
-      "objetivos": "I am always looking for new challenges and opportunities to apply and expand my knowledge. My current goal is to gain experience and grow professionally in the programming field, improving my skills and consolidating my career in technology."
+      "objetivos": "I am always looking for new challenges and opportunities to apply and expand my knowledge. My current goal is to gain experience and grow professionally in programming, enhancing my skills and consolidating my career in technology."
     },
     "projetos": "Projects"
   }
