@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import frente from '/public/img/frente.jpeg';
 import verso from '/public/img/verso.jpeg';
-import './FlipCard.css'; // Importe o arquivo CSS
 
 const FlipCard = () => {
   const [flipped, setFlipped] = useState(false);
@@ -12,18 +11,18 @@ const FlipCard = () => {
 
   return (
     <div
-      className={`flip-container ${flipped ? 'flipped' : ''}`}
+      className={`relative w-[200px] h-[300px] perspective-[1000px] ${flipped ? 'overflow-hidden' : ''}`}
       onClick={handleFlip} 
     >
-      <div className="flip-card">
-        <div className="flip-card-front ">
+      <div className={`w-full h-full relative transform-style-[preserve-3d] transition-transform duration-500 ${flipped ? 'rotate-y-180' : ''}`}>
+        <div className="absolute w-full h-full backface-hidden">
           <img
             src={verso}
             alt="ilustração"
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="flip-card-back">
+        <div className="absolute w-full h-full backface-hidden rotate-y-180">
           <img
             src={frente}
             alt="foto"

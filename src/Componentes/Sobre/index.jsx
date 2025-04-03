@@ -1,8 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
-import FlipCard from '../flip';
-
-
+import FlipCard from '../flip/index';
 
 const SobreMim = () => {
   const { t } = useTranslation(); // Adicione esta linha para obter a função t
