@@ -15,7 +15,7 @@ const Projects = () => {
     infinite: true, // Permite rotação infinita
     speed: 500, // Velocidade da transição
     slidesToShow: 5, // Número de itens visíveis ao mesmo tempo
-    slidesToScroll: 1, // Quantos itens serão rolados de cada vez
+    slidesToScroll: 2, // Quantos itens serão rolados de cada vez
     autoplay: true, // Ativa a rotação automática
     autoplaySpeed: 3000, // Intervalo de 3 segundos
     arrows: false, // Removendo as setas
@@ -52,7 +52,7 @@ const Projects = () => {
                 src={projeto.imgSrc}
                 alt={projeto.alt || "image Project"}
               />
-              <div className="flex justify-between p-2">
+              <div className="flex justify-between p-0 mt-1 mx-auto">
                 <a
                   href={projeto.siteLink}
                   target="_blank"
