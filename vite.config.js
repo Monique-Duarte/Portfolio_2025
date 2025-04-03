@@ -9,8 +9,7 @@ export default defineConfig({
   ],
   base: '/', 
   server: {
-    proxy: {
-      '/api': 'http://localhost:3000'
-    }
+    host: '0.0.0.0', // ou um endereço IP específico ou 'localhost'
+    port: 3000 // substitua com a porta desejada
   }
 })

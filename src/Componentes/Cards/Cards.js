@@ -1,6 +1,6 @@
 export default [
 	{
-		title: "GitHub - Portfólio",
+		title: "Portfólio",
 		imgSrc: "/img/project/fundo_q.gif",
 		alt: "logo de gato",
 		siteLink: "https://portfolio-moniquead.vercel.app/",

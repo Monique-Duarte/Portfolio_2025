@@ -14,7 +14,7 @@ const BaixarCurriculo = () => {
 
   return (
     <h3
-      className="btn border-white text-white p-0"
+      className="btn border-white text-white p-2"
       onClick={handleDownload}
       style={{ cursor: 'pointer', flexWrap: 'wrap' }}
     >
