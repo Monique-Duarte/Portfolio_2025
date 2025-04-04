@@ -6,7 +6,7 @@ const Id = () => {
   const { t } = useTranslation(); // Adicione esta linha para obter a função t
   return (
     <div className="bg-[#121113]">
-    <div className="md:h-[70vh] md:w-[80vw] md:mx-auto block center font-roboto md:flex bg-[#ECA400]">
+    <div className="md:h-[70vh] w-[80vw] mx-auto block center font-roboto md:flex bg-[#ECA400]">
       <div className="items-center justify-center mx-25 md:my-20 h-auto">
         <img
           className="md:mx-10 content-center md:w-2/3"  // Centraliza a imagem
