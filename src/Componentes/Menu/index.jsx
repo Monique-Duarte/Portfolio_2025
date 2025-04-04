@@ -9,6 +9,7 @@ import itImg from '../../../public/img/assets/it.svg';
 import deImg from '../../../public/img/assets/de.svg';
 import LanguageSelector from './LanguageSelector/';
 import MenuItem from './Menu-item/index';
+import { Link } from 'react-router-dom';
 
 const Menu = () => {
   const { t, i18n } = useTranslation();
@@ -37,14 +38,15 @@ const Menu = () => {
       <nav className="fixed ml-2 top-2/3 transform -translate-y-1/2 p-0 h-full">
         <div className="top-1/2 transform -translate-y-1/2">
           <i 
-            className={`bi bi-list text-white p-0 h-fit fs-1 cursor-pointer m-0 ${isExpanded ? 'text-primary' : ''}`} 
+            className={`bi bi-list text-white p-0 h-fit fs-3 cursor-pointer m-0 ${isExpanded ? 'text-primary' : ''}`} 
             onClick={toggleMenu} 
           ></i>
         </div>
         <ul 
           className={`p-0 transition-opacity duration-300 ease-in-out ${isExpanded ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-y-hidden'}`}
         >
-          <MenuItem iconClass="bi bi-house fs-4 p-0" link="/">
+          <MenuItem>
+            <Link to="/"> <i className='bi bi-house fs-4 p-0'></i> </Link>
           </MenuItem>
           <MenuItem iconClass="bi bi-person fs-4 p-0" link="/#SobreMim">
           </MenuItem>

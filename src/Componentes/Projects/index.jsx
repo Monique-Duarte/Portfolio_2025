@@ -11,7 +11,6 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   const { t } = useTranslation(); 
 
-  // Configurações do carrossel
   const settings = {
     style: {
       width: "95%",
@@ -25,12 +24,12 @@ const Projects = () => {
     autoplaySpeed: 3000, // Intervalo de 3 segundos
     arrows: true, // Ativa as setas
     prevArrow: (
-      <button className="custom-arrow custom-prev-arrow">
+      <button>
         <FaChevronLeft />
       </button>
     ),
     nextArrow: (
-      <button className="custom-arrow custom-next-arrow">
+      <button>
         <FaChevronRight />
       </button>
     ),
@@ -55,25 +54,23 @@ const Projects = () => {
   };
 
   return (
-    <div className="bg-[#001D4A]">
-      <div id="Projetos" className="mx-auto w-full max-w-[80vw] justify-center mb-6 bg-[#001D4A]">
+    <div className="bg-[#121113]">
+      <div id="Projetos" className="mx-auto w-full max-w-[80vw] h-[80vh] overflow-y-hidden  bg-[#107E7D]">
         <div className="justify-center items-center">
           <h2 className="mt-5 p-1 text-center">{t('projetos')}</h2>
-          <div className="flex ml-4">
-            {/* Usando o Link do React Router para navegação interna */}
-            <Link to="/projects" className="text-white text-sm ml-4 fs-5 mb-2">
+          <div className="flex center justify-center ">
+            <Link to="/projects" id="list" className="text-white m-0 text-sm fs-5">
               Lista de Projetos
             </Link>
           </div>
         </div>
-
         <div className="flex h-full">
           <Carousel settings={settings}>
             {Cards.map((projeto, index) => (
               <div className="w-[90%] p-2" key={index}>
-                <div className="text-center fs-4 rounded-t-lg">{projeto.title}</div>
+                <div className="text-center fs-4 ">{projeto.title}</div>
                 <img
-                  className="bg-white mx-auto rounded-t-lg img_card"
+                  className="bg-white mx-auto img_card"
                   src={projeto.imgSrc}
                   alt={projeto.alt || "Imagem do Projeto"}
                 />
@@ -82,7 +79,7 @@ const Projects = () => {
                     href={projeto.siteLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="border border-gray-800 py-1 px-3 rounded text-white ml-4 md:ml-0"
+                    className="border border-gray-800 py-1 px-3 rounded text-white md:ml-0"
                   >
                     Site
                   </a>
@@ -90,7 +87,7 @@ const Projects = () => {
                     href={projeto.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="border border-gray-800 py-1 no-underline px-3 rounded text-white mr-4 md:mr-0"
+                    className="border border-gray-800 py-1 no-underline px-3 rounded text-white md:mr-0"
                   >
                     GitHub
                   </a>
