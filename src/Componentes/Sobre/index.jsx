@@ -9,7 +9,7 @@ const SobreMim = () => {
     <div id="SobreMim" className="flex mx-auto justify-center text-balance py-12 px-4 max-w-[80vw] font-winky bg-[#D90368]">
       <div className="flex flex-col items-center justify-center w-full sm:max-w-[80%] lg:max-w-[70%] text-center text-base sm:text-xl">
         <h1 className="text-2xl mb-5 relative overflow-y-hidden">{t('sobre.sobreMim')}
-          <div className="flex justify-center items-center h-[100%] w-[100%] ">
+          <div className="flex justify-center items-center h-[100%] w-[100%]">
             <CardContainer />
           </div>
         </h1>

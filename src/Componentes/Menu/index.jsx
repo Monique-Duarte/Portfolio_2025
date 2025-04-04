@@ -46,7 +46,7 @@ const Menu = () => {
           className={`p-0 transition-opacity duration-300 ease-in-out ${isExpanded ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-y-hidden'}`}
         >
           <MenuItem>
-            <Link to="/"> <i className='bi bi-house fs-4 p-0'></i> </Link>
+            <Link to="/id"> <i className='bi bi-house fs-4 p-0'></i> </Link>
           </MenuItem>
           <MenuItem iconClass="bi bi-person fs-4 p-0" link="/#SobreMim">
           </MenuItem>

@@ -3,7 +3,7 @@ import ContactIcon from "./contactIcon";
 
 const Contact = () => {
   return (
-    <div className="flex center mx-5 my-0 md:items-center items-center justify-center">
+    <div className="flex center mx-2 my-0 md:items-center items-center justify-center">
       <ContactIcon 
         href="https://www.instagram.com/duartt.monique/"
         iconClass="bi bi-instagram"

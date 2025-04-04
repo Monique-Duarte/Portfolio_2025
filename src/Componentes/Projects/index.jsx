@@ -55,8 +55,8 @@ const Projects = () => {
 
   return (
     <div className="bg-[#121113]">
-      <div id="Projetos" className="mx-auto w-full max-w-[80vw] h-[80vh] overflow-y-hidden  bg-[#107E7D]">
-        <div className="justify-center items-center">
+      <div id="Projetos" className="mx-auto w-full max-w-[80vw] overflow-y-hidden bg-[#107E7D]">
+        <div className="justify-center items-center mt-4">
           <h2 className="mt-5 p-1 text-center">{t('projetos')}</h2>
           <div className="flex center justify-center ">
             <Link to="/projects" id="list" className="text-white m-0 text-sm fs-5">
@@ -64,7 +64,7 @@ const Projects = () => {
             </Link>
           </div>
         </div>
-        <div className="flex h-full">
+        <div className="flex h-full mb-20">
           <Carousel settings={settings}>
             {Cards.map((projeto, index) => (
               <div className="w-[90%] p-2" key={index}>
