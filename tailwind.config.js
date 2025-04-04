@@ -4,6 +4,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        darkBlue: '#000916',
+        ocenBlue: '#006992',
+        indigoBlue: '#27476E',
+        oxfordBlue: '#001D4A',
+        salmon: '#FE5F55',
+      },
       fontFamily: {
         winky: ['Winky Sans', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],

@@ -15,12 +15,12 @@ const Projects = () => {
     style: {
       width: "95%",
       margin: "0 auto",
-    } ,
+    },
     infinite: true, // Permite rotação infinita
     speed: 500, // Velocidade da transição
     slidesToShow: 5, // Número de itens visíveis ao mesmo tempo
     slidesToScroll: 2, // Quantos itens serão rolados de cada vez
-    autoplay: false, // Ativa a rotação automática
+    autoplay: true, // Ativa a rotação automática
     autoplaySpeed: 3000, // Intervalo de 3 segundos
     arrows: true, // Ativa as setas
     prevArrow: (
@@ -54,39 +54,41 @@ const Projects = () => {
   };
 
   return (
-    <div id="Projetos" className="mx-auto w-full max-w-[80vw] justify-center mb-6">
-      <h2 className="mt-5 p-1 text-center">{t('projetos')}</h2>
-      <div className="flex h-full">
-        <Carousel settings={settings}>
-          {Cards.map((projeto, index) => (
-            <div className="w-[90%] p-2" key={index}>
-              <div className="text-center fs-4 rounded-t-lg">{projeto.title}</div>
-              <img
-                className="bg-white mx-auto rounded-t-lg img_card"
-                src={projeto.imgSrc}
-                alt={projeto.alt || "image Project"}
-              />
-              <div id="links" className="flex justify-between p-0 mt-1 ">
-                <a
-                  href={projeto.siteLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="border border-gray-800 py-1 px-3 rounded text-white ml-4 md:ml-0"
-                >
-                  Site
-                </a>
-                <a
-                  href={projeto.githubLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="border border-gray-800 py-1 no-underline px-3 rounded text-white mr-4 md:mr-0"
-                >
-                  GitHub
-                </a>
+    <div className="bg-[#001D4A]">
+      <div id="Projetos" className="mx-auto w-full max-w-[80vw] justify-center mb-6 bg-[#001D4A]">
+        <h2 className="mt-5 p-1 text-center">{t('projetos')}</h2>
+        <div className="flex h-full">
+          <Carousel settings={settings}>
+            {Cards.map((projeto, index) => (
+              <div className="w-[90%] p-2" key={index}>
+                <div className="text-center fs-4 rounded-t-lg">{projeto.title}</div>
+                <img
+                  className="bg-white mx-auto rounded-t-lg img_card"
+                  src={projeto.imgSrc}
+                  alt={projeto.alt || "image Project"}
+                />
+                <div id="links" className="flex justify-between p-0 mt-1 ">
+                  <a
+                    href={projeto.siteLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border border-gray-800 py-1 px-3 rounded text-white ml-4 md:ml-0"
+                  >
+                    Site
+                  </a>
+                  <a
+                    href={projeto.githubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border border-gray-800 py-1 no-underline px-3 rounded text-white mr-4 md:mr-0"
+                  >
+                    GitHub
+                  </a>
+                </div>
               </div>
-            </div>
-          ))}
-        </Carousel>
+            ))}
+          </Carousel>
+        </div>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import Contact from '../Contact';
 const Id = () => {
   const { t } = useTranslation(); // Adicione esta linha para obter a função t
   return (
-    <div className="md:h-[80vh] md:w-[80vw] block center font-roboto md:flex">
+    <div className="md:h-[80vh] md:w-[100vw] block center font-roboto md:flex bg-[#001D4A]">
       <div className="items-center justify-center mx-25 md:my-20 h-auto">
         <img
           className="md:mx-10 content-center md:w-2/3"  // Centraliza a imagem
