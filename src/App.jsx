@@ -1,20 +1,23 @@
-import "./App.css"
+import "./App.css";
 import Footer from "./Componentes/Footer";
-import Corpo from "./Pagina/index";
-import './Componentes/lib/i18n';
-import Menu from "./Componentes/Menu/index";
-
+import Inicio from "./Pagina/index";
+import './Componentes/lib/i18n'; // Importando o i18n para internacionalização
+import Header from "./Componentes/Header";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Projects from "./Pagina/Projects"; // Componente de projetos
 
 function App() {
-
   return (
-    <>
-      <Menu style={{ backgroundColor: "#000916", with:"100%" }}/>
-      <main className="main">
-      <Corpo />
-      </main>
+    <BrowserRouter>
+      <Header />
+      
+      <Routes>
+        <Route path="/" element={<Inicio />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 

@@ -10,7 +10,6 @@ const Header = () => {
       <h1 className='font-winky text-center shadow-[inset_0_0_0_3px_#002D49] p-1 m-auto bg-[#006992]'>
         {t('header')}
       </h1>
-      <Id />
     </>
   );
 };

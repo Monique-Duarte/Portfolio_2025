@@ -8,7 +8,8 @@
   overflow-y: hidden;
 }
 
-#links a {
+#links a,
+#list a {
   text-decoration: none;
 }
 

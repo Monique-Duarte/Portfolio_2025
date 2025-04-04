@@ -1,14 +1,15 @@
 import React from "react";
-import Carousel from "../Carousel/index"; // Importando o componente Carousel
+import Carousel from "../Carousel/index";
 import Cards from "../Cards/Cards";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./project.css";
 import { useTranslation } from "react-i18next";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Importando os ícones de seta
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; 
+import { Link } from "react-router-dom"; 
 
 const Projects = () => {
-  const { t } = useTranslation(); // Adicione esta linha para obter a função t
+  const { t } = useTranslation(); 
 
   // Configurações do carrossel
   const settings = {
@@ -39,7 +40,7 @@ const Projects = () => {
         settings: {
           slidesToShow: 2, // Exibe 2 itens em telas médias (tablets)
           slidesToScroll: 1,
-          arrows: true, //  setas
+          arrows: true, // setas
         },
       },
       {
@@ -47,7 +48,7 @@ const Projects = () => {
         settings: {
           slidesToShow: 1, // Exibe 1 item em telas pequenas (celulares)
           slidesToScroll: 1,
-          arrows: true, //  setas
+          arrows: true, // setas
         },
       },
     ],
@@ -56,7 +57,16 @@ const Projects = () => {
   return (
     <div className="bg-[#001D4A]">
       <div id="Projetos" className="mx-auto w-full max-w-[80vw] justify-center mb-6 bg-[#001D4A]">
-        <h2 className="mt-5 p-1 text-center">{t('projetos')}</h2>
+        <div className="justify-center items-center">
+          <h2 className="mt-5 p-1 text-center">{t('projetos')}</h2>
+          <div className="flex ml-4">
+            {/* Usando o Link do React Router para navegação interna */}
+            <Link to="/projects" className="text-white text-sm ml-4 fs-5 mb-2">
+              Lista de Projetos
+            </Link>
+          </div>
+        </div>
+
         <div className="flex h-full">
           <Carousel settings={settings}>
             {Cards.map((projeto, index) => (
@@ -65,9 +75,9 @@ const Projects = () => {
                 <img
                   className="bg-white mx-auto rounded-t-lg img_card"
                   src={projeto.imgSrc}
-                  alt={projeto.alt || "image Project"}
+                  alt={projeto.alt || "Imagem do Projeto"}
                 />
-                <div id="links" className="flex justify-between p-0 mt-1 ">
+                <div id="links" className="flex justify-between p-0 mt-1">
                   <a
                     href={projeto.siteLink}
                     target="_blank"

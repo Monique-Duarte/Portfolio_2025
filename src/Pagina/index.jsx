@@ -1,16 +1,18 @@
 import React from 'react';
-import Header from '../Componentes/Header';
 import Projects from '../Componentes/Projects';
 import SobreMim from '../Componentes/Sobre';
+import Menu from '../Componentes/Menu';
+import Id from '../Componentes/Id';
 
-const Corpo = () => {
+const Inicio = () => {
 	return (
 		<>
-    <Header style={{ with:"100%" }} />
+    <Menu />
+    <Id />
     <SobreMim />
-    <Projects style={{ with:"100%" }} />
+    <Projects />
     </>
 	)
 };
 
-export default Corpo;
+export default Inicio;

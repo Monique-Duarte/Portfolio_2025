@@ -44,13 +44,13 @@ const Menu = () => {
         <ul 
           className={`p-0 transition-opacity duration-300 ease-in-out ${isExpanded ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-y-hidden'}`}
         >
-          <MenuItem iconClass="bi bi-house fs-4 p-0" link="#">
+          <MenuItem iconClass="bi bi-house fs-4 p-0" link="/">
           </MenuItem>
-          <MenuItem iconClass="bi bi-person fs-4 p-0" link="#SobreMim">
+          <MenuItem iconClass="bi bi-person fs-4 p-0" link="/#SobreMim">
           </MenuItem>
-          <MenuItem iconClass="bi bi-book fs-4 p-0" link="#Conhecimentos">
+          <MenuItem iconClass="bi bi-book fs-4 p-0" link="/#Conhecimentos">
           </MenuItem>
-          <MenuItem iconClass="bi bi-code-slash fs-4 p-0" link="#Projetos">
+          <MenuItem iconClass="bi bi-code-slash fs-4 p-0" link="/#Projetos">
           </MenuItem>
           <MenuItem iconClass="bi bi-translate fs-4 p-0" onClick={() => setMenuVisible(!menuVisible)}>
           </MenuItem>
