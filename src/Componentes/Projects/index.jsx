@@ -12,6 +12,10 @@ const Projects = () => {
 
   // Configurações do carrossel
   const settings = {
+    style: {
+      width: "95%",
+      margin: "0 auto",
+    } ,
     infinite: true, // Permite rotação infinita
     speed: 500, // Velocidade da transição
     slidesToShow: 5, // Número de itens visíveis ao mesmo tempo

@@ -24,32 +24,13 @@ button.slick-arrow {
 }
 
 .slick-initialized{
-  padding: 0 10px;
+  padding: 0 30px;
 }
 
 button.slick-next {
-  margin-right: 30px !important;
+  margin-right: 10px !important;
 }
 
 button.slick-prev {
-  margin-left: 5px !important;
-}
-
-@media (max-width: 767px) {
-  .slick-arrow {
-    z-index: 1;
-    font-size: 30px;
-    width: 20%;
-  }
-
-  .slick-next {
-    margin-left: -5px !important;
-  }
-
-  button.slick-next {
-    margin-right: 30px !important;
-  }
-  button.slick-prev {
-    margin-left: 30px !important;
-  }
+  margin-left: 10px !important;
 }
