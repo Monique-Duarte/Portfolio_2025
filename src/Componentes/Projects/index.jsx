@@ -5,27 +5,37 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./project.css";
 import { useTranslation } from "react-i18next";
-
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Importando os ícones de seta
 
 const Projects = () => {
-
   const { t } = useTranslation(); // Adicione esta linha para obter a função t
+
   // Configurações do carrossel
   const settings = {
     infinite: true, // Permite rotação infinita
     speed: 500, // Velocidade da transição
     slidesToShow: 5, // Número de itens visíveis ao mesmo tempo
     slidesToScroll: 2, // Quantos itens serão rolados de cada vez
-    autoplay: true, // Ativa a rotação automática
+    autoplay: false, // Ativa a rotação automática
     autoplaySpeed: 3000, // Intervalo de 3 segundos
-    arrows: false, // Removendo as setas
+    arrows: true, // Ativa as setas
+    prevArrow: (
+      <button className="custom-arrow custom-prev-arrow">
+        <FaChevronLeft />
+      </button>
+    ),
+    nextArrow: (
+      <button className="custom-arrow custom-next-arrow">
+        <FaChevronRight />
+      </button>
+    ),
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2, // Exibe 2 itens em telas médias (tablets)
           slidesToScroll: 1,
-          arrows: false, // Removendo as setas
+          arrows: true, //  setas
         },
       },
       {
@@ -33,7 +43,7 @@ const Projects = () => {
         settings: {
           slidesToShow: 1, // Exibe 1 item em telas pequenas (celulares)
           slidesToScroll: 1,
-          arrows: false, // Removendo as setas
+          arrows: true, //  setas
         },
       },
     ],
@@ -45,7 +55,7 @@ const Projects = () => {
       <div className="flex h-full">
         <Carousel settings={settings}>
           {Cards.map((projeto, index) => (
-            <div className="p-2" key={index}>
+            <div className="w-[90%] p-2" key={index}>
               <div className="text-center fs-4 rounded-t-lg">{projeto.title}</div>
               <img
                 className="bg-white mx-auto rounded-t-lg img_card"

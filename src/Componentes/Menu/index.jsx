@@ -42,7 +42,7 @@ const Menu = () => {
           ></i>
         </div>
         <ul 
-          className={`p-0 transition-all duration-300 ease-in-out ${isExpanded ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}
+          className={`p-0 transition-opacity duration-300 ease-in-out ${isExpanded ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-y-hidden'}`}
         >
           <MenuItem iconClass="bi bi-house fs-4 p-0" link="#">
           </MenuItem>
