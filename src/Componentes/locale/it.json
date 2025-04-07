@@ -3,8 +3,9 @@
     "header": "Portafoglio",
     "footer": "© 2025 Tutti i diritti riservati.",
     "id": {
-      "graduacao": "Studente di Laurea Magistrale in Ingegneria del Software",
-      "area": "Sviluppatrice Front-end",
+      "graduacao": "Studente di Laurea Magistrale in Ingegneria del Software  - PUC Minas",
+      "area": "Sviluppatrice Front-end - EBAC",
+      "Estudante": "Full Stack Python - EBAC",
       "tags": "Dev | React | JavaScript | TypeScript | HTML | CSS | Node.js | Sistema Web"
     },
     "sobre": {

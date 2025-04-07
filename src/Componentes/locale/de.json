@@ -3,8 +3,9 @@
     "header": "Portfolio",
     "footer": "© 2025 Alle Rechte vorbehalten.",
     "id": {
-      "graduacao": "Masterstudent in Software Engineering",
-      "area": "Frontend-Entwicklerin",
+      "graduacao": "Masterstudent in Software Engineering - PUC Minas",
+      "area": "Frontend-Entwicklerin - EBAC",
+      "Estudante": "Full Stack Python - EBAC",
       "tags": "Dev | React | JavaScript | TypeScript | HTML | CSS | Node.js | Web-System"
     },
     "sobre": {

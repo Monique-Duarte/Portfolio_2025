@@ -3,8 +3,9 @@
     "header": "Portefeuille",
     "footer": "© 2025 Tous droits réservés.",
     "id": {
-      "graduacao": "Étudiant en Master en Génie Logiciel",
-      "area": "Développeuse Front-end",
+      "graduacao": "Étudiant en Master en Génie Logiciel - PUC Minas",
+      "area": "Développeuse Front-end - EBAC",
+      "Estudante": "Full Stack Python - EBAC",
       "tags": "Dev | React | JavaScript | TypeScript | HTML | CSS | Node.js | Système Web"
     },
     "sobre": {
