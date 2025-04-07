@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import Contact from '../Contact';
-// import './id.css'
+import './id.css'
 
 const Id = () => {
   const { t } = useTranslation(); // Adicione esta linha para obter a função t
@@ -10,7 +10,8 @@ const Id = () => {
       <div id='id' className="bg-[#8F87F1] mx-2 md:mx-20 md:h-[70vh] block center text-balance md:flex">
         <div id="imgFundo" className="items-center relative md:w-[50vw] md:my-auto">
           <img
-            className="md:my-auto md:mx-auto md:w-1/2 w-60 mx-auto shadow-none"
+            id='imgId'
+            className="md:my-auto md:mx-auto md:w-1/2 w-60 mx-auto shadow-none p-2"
             src="/img/monique1.png"
             alt="foto perfil"
           />
