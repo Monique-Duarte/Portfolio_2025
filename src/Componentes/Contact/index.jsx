@@ -30,7 +30,7 @@ const Contact = () => {
         label="WhatsApp"
       />
       <div className="overflow-hidden">
-        <button className="fs-3 m-2 md:p-2">
+        <button className="fs-3 m-2 md:p-2 shadow-none">
           <BaixarCurriculo />
         </button>
       </div>

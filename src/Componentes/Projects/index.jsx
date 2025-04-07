@@ -54,8 +54,8 @@ const Projects = () => {
   };
 
   return (
-    <div className="bg-[#121113]">
-      <div id="Projetos" className="mx-auto w-full max-w-[80vw] overflow-y-hidden bg-[#107E7D]">
+    <div className="bg-[#8F87F1]">
+      <div id="Projetos" className="mx-auto w-full max-w-[80vw] overflow-y-hidden bg-[#8F87F1]">
         <div className="justify-center items-center mt-4">
           <h2 className="mt-5 p-1 text-center">{t('projetos')}</h2>
           <div className="flex center justify-center ">

@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <>
-      <h1 className='font-winky text-center shadow-[inset_0_0_1px_0_#fff] p-1 m-auto bg-[#121113]'>
+      <h1 className='font-winky text-center shadow-[inset_0_0_1px_0_#fff] p-1 m-auto bg-[#7B73DF]'>
         {t('header')}
       </h1>
     </>

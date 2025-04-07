@@ -16,7 +16,7 @@ const BaixarCurriculo = () => {
     <h3
       className="btn border-white text-white p-2"
       onClick={handleDownload}
-      style={{ cursor: 'pointer', flexWrap: 'wrap' }}
+      style={{ cursor: 'pointer', flexWrap: 'wrap'}}
     >
       Baixar Curriculo
     </h3>

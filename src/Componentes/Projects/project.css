@@ -9,8 +9,9 @@
 }
 
 #links a,
-#list a {
+#list{
   text-decoration: none;
+  text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.301);
 }
 
 button.slick-arrow {
@@ -23,6 +24,7 @@ button.slick-arrow {
   color: black !important;
   position: absolute;
   top: 50%;
+  box-shadow: none;
 }
 
 .slick-initialized{
