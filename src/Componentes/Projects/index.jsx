@@ -74,12 +74,12 @@ const Projects = () => {
                   src={projeto.imgSrc}
                   alt={projeto.alt || "Imagem do Projeto"}
                 />
-                <div id="links" className="flex justify-between p-0 mt-1">
+                <div id="links" className="flex justify-between p-0 mt-1 ">
                   <a
                     href={projeto.siteLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="border border-gray-800 py-1 px-3 rounded text-white md:ml-0"
+                    className="border border-gray-800 py-1 px-3 rounded text-white md:ml-1"
                   >
                     Site
                   </a>
@@ -87,7 +87,7 @@ const Projects = () => {
                     href={projeto.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="border border-gray-800 py-1 no-underline px-3 rounded text-white md:mr-0"
+                    className="border border-gray-800 py-1 no-underline px-3 rounded text-white md:mr-1"
                   >
                     GitHub
                   </a>
