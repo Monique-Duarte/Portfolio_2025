@@ -7,7 +7,7 @@ const Id = () => {
   const { t } = useTranslation(); // Adicione esta linha para obter a função t
   return (
     <div className="bg-[#8F87F1]">
-      <div id='id' className="bg-[#8F87F1] mx-2 md:mx-20 md:h-[70vh] block center text-balance md:flex">
+      <div id='Id' className="bg-[#8F87F1] mx-2 md:mx-20 md:h-[70vh] block center text-balance md:flex">
         <div id="imgFundo" className="items-center relative md:w-[50vw] md:my-auto">
           <img
             id='imgId'
@@ -16,7 +16,7 @@ const Id = () => {
             alt="foto perfil"
           />
         </div>
-        <div className='text-center w-[100vw] md:my-auto md:w-[60vw]'>
+        <div className='text-center w-[100vw] md:my-auto md:w-[80vw]'>
           <h1 className="text-lg my-2 overflow-hidden">Monique Duarte</h1>
           <p className="text-balance mx-10 text-lg mb-1 md:text-2xl">{t('id.graduacao')}</p>
           <p className="text-lg  mx-10 mb-1 md:text-2xl ">{t('id.area')}</p>

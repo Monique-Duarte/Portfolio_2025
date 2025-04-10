@@ -7,7 +7,7 @@ const LanguageSelector = ({ languages, menuVisible, toggleMenu, handleLanguageCh
       <span className="cursor-pointer" onClick={toggleMenu}>
       </span>
       <div
-        className={`absolute mt-2 shadow-lg rounded-md w-[120px] h-content ${menuVisible ? 'block' : 'hidden'}`}
+        className={`absolute mt-2 w-[120px] h-content ${menuVisible ? 'block' : 'hidden'}`}
       >
         {languages.map((language) => (
           <div
@@ -15,7 +15,7 @@ const LanguageSelector = ({ languages, menuVisible, toggleMenu, handleLanguageCh
             className="flex items-center mb-2 cursor-pointer h-full"
             onClick={() => handleLanguageChange(language.value)}
           >
-            <img width={30} src={language.img} alt={language.value} className="w-5 mr-2" />
+            <img width={30} src={language.img} alt={language.value} className="w-6 mr-2 rounded-none shadow-none" />
           </div>
         ))}
       </div>

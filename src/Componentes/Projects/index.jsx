@@ -5,11 +5,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./project.css";
 import { useTranslation } from "react-i18next";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; 
-import { Link } from "react-router-dom"; 
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
 
   const settings = {
     style: {
@@ -59,7 +59,9 @@ const Projects = () => {
         <div className="justify-center items-center mt-4">
           <h2 className="mt-5 p-1 text-center">{t('projetos')}</h2>
           <div className="flex center justify-center ">
-            <Link to="/projects" id="list" className="text-white m-0 text-sm fs-5">
+            <Link to="/projects" id="list" className=" text-white text-sm fs-5 m-0 px-4 py-2 rounded-2xl backdrop-blur-md bg-white/10  
+              shadow-lg transition duration-300 hover:bg-white/20 hover:shadow-xl"
+            >
               Lista de Projetos
             </Link>
           </div>

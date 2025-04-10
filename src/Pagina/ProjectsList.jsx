@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Cards from "../Componentes/Cards/Cards"; // Certifique-se de que Cards esteja importado corretamente
+import Cards from "../Componentes/Cards/Cards"; 
 import { useTranslation } from "react-i18next";
 import Menu from "../Componentes/Menu";
 
-export default function Projects() {
-  const { t } = useTranslation(); // Adiciona tradução, se necessário
+export default function ProjectsList () {
+  const { t } = useTranslation(); 
   const [searchTerm, setSearchTerm] = useState(""); // Estado para armazenar o valor de pesquisa
 
   // Filtra os projetos com base no ID

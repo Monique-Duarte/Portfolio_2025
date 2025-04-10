@@ -4,7 +4,8 @@ import Inicio from "./Pagina/index";
 import './Componentes/lib/i18n'; // Importando o i18n para internacionalização
 import Header from "./Componentes/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Projects from "./Pagina/Projects"; // Componente de projetos
+import ProjectsList from "./Pagina/ProjectsList";
+
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects" element={<ProjectsList />} />
       </Routes>
 
       <Footer />
