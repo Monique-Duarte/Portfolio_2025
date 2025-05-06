@@ -16,6 +16,15 @@ export default [
 		id: "Css, JavaScripts, Gulp",
 		siteLink: "https://clone-disney-plus-nine-liard.vercel.app/",
 		githubLink: "https://github.com/Monique-Duarte/Clone_DisneyPlus",
+	}, 	
+	{
+		title: "Lista Telefonica",
+		imgSrc: "/img/project/lista.png",
+		alt: "Lista Telefonica",
+		tags: "AngularJS, CSS, Bootstrap",
+		id: "AngularJS, CSS, Bootstrap",
+		siteLink: "https://lista-telefonica-omega.vercel.app/",
+		githubLink: "https://github.com/Monique-Duarte/Lista_Telefonica.git",
 	},
 	{
 		title: "Hema Toma",
