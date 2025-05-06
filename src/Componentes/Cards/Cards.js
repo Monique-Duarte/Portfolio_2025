@@ -24,7 +24,7 @@ export default [
 		tags: "AngularJS, CSS, Bootstrap",
 		id: "AngularJS, CSS, Bootstrap",
 		siteLink: "https://lista-telefonica-omega.vercel.app/",
-		githubLink: "https://github.com/Monique-Duarte/Lista_Telefonica.git",
+		githubLink: "https://lista-telefonica-mu.vercel.app/",
 	},
 	{
 		title: "Hema Toma",
