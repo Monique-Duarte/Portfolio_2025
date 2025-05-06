@@ -2,11 +2,20 @@ export default [
 	{
 		title: "Portfólio",
 		imgSrc: "/img/project/fundo_q.gif",
-		alt: "logo de gato",
-		tags: "Reacts, Tailwind, Framer Motion, TypeScript, i18n",
-		id: "Reacts, Tailwind, Framer Motion, TypeScript, i18n",
+		alt: "ceu estrado",
+		tags: "React, Tailwind, Framer Motion, TypeScript, i18n",
+		id: "React, Tailwind, Framer Motion, TypeScript, i18n",
 		siteLink: "https://portfolio-moniquead.vercel.app/",
 		githubLink: "https://github.com/Monique-Duarte/Portfolio_2025.git",
+	},	
+	{
+		title: "Cópia Disney +",
+		imgSrc: "/img/project/disney.png",
+		alt: "disney",
+		tags: "Css, JavaScripts, Gulp",
+		id: "Css, JavaScripts, Gulp",
+		siteLink: "https://clone-disney-plus-nine-liard.vercel.app/",
+		githubLink: "https://github.com/Monique-Duarte/Clone_DisneyPlus",
 	},
 	{
 		title: "Hema Toma",
