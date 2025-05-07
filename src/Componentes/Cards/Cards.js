@@ -18,13 +18,13 @@ export default [
 		githubLink: "https://github.com/Monique-Duarte/Clone_DisneyPlus.git",
 	},
 	{
-		title: "Spider Man - Disney +",
-		imgSrc: "/img/project/hero_spider.jpg",
+		title: "Filme - Landing Page",
+		imgSrc: "/img/project/dragon.jpeg",
 		alt: "disney",
 		tags: "Css, JavaScripts, Gulp",
 		id: "Css, JavaScripts, Gulp",
-		siteLink: "https://disney-spider-wkt9.vercel.app/",
-		githubLink: "https://github.com/Monique-Duarte/Disney-Spider.git",
+		siteLink: "https://como-treinar-o-seu-dragao.vercel.app/",
+		githubLink: "https://github.com/Monique-Duarte/Como_Treinar_o_Seu_Dragao.git",
 	},
 	{
 		title: "Hema Toma",
