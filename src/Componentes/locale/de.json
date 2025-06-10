@@ -1,22 +1,28 @@
 {
   "translation": {
-    "header": "Portfolio",
+    "header": "Front-End Entwickler Portfolio",
+    "search_placeholder": "Technologie",
     "footer": "© 2025 Alle Rechte vorbehalten.",
     "id": {
-      "graduacao": "Masterstudent in Software Engineering - PUC Minas",
-      "area": "Frontend-Entwicklerin - EBAC",
-      "Estudante": "Full Stack Python - EBAC",
-      "tags": "Dev | React | JavaScript | TypeScript | HTML | CSS | Node.js | Web-System"
+      "graduacao": "Postgraduiertenstudium Software Engineering - PUC Minas",
+      "area": "Front-end Entwickler - EBAC",
+      "Estudante": "Full Stack Python Student - EBAC",
+      "tags": "Dev | React | JavaScript | TypeScript | HTML | CSS | Node.js | Websystem"
     },
     "sobre": {
       "sobreMim": "Über mich",
       "sobre": "Wer bin ich?",
-      "quemEuSou": "Ich bin Monique Duarte, 29 Jahre alt, Masterstudentin in Softwaretechnik an der PUC Minas, Zootecnia-Absolventin und Master of Science von der USP. Ich suche eine Gelegenheit als Junior-Entwicklerin, leidenschaftlich an Technologie interessiert, mit Fokus auf Entwicklung, Automatisierung, KI und Innovation.",
+      "quemEuSou": "Ich bin Monique Duarte, 30 Jahre alt, Postgraduiertenstudentin für Software Engineering an der PUC Minas, Zootechnikerin und Master of Science an der USP. Ich suche eine Gelegenheit als Entwicklerin, leidenschaftlich für Technologie, mit Fokus auf Entwicklung, Automatisierung, KI und Innovation.",
       "oQueFaco": "Was mache ich heute?",
-      "atualmente": "Zurzeit bin ich Praktikantin im Bereich Support und Front-End, arbeite mit den Support- und Engineering-Teams zusammen, um Projekte zu analysieren und ihre Qualität zu sichern. Mein Fokus liegt auf automatisierten Lösungen, dem Lernen von React und Tests, die Prozesse optimieren und die Effizienz für mich und meine Kollegen verbessern.",
-      "quaisObj": "Was sind meine Ziele?",
-      "objetivos": "Ich bin immer auf der Suche nach neuen Herausforderungen und Möglichkeiten, mein Wissen anzuwenden und auszubauen. Mein aktuelles Ziel ist es, Erfahrung zu sammeln und beruflich im Bereich Programmierung zu wachsen, meine Fähigkeiten zu verbessern und meine Karriere in der Technologie zu festigen."
+      "atualmente": "Derzeit bin ich Front-End-Praktikantin und arbeite mit den Support- und Engineering-Teams bei der Analyse und Qualitätssicherung von Projekten zusammen. Mein Fokus liegt auf automatisierten Lösungen, dem Lernen von React und Tests, die Prozesse optimieren und die Effizienz für mich und meine Kollegen verbessern.",
+      "quaisObj": "Meine Ziele?",
+      "objetivos": "Ich suche stets nach neuen Herausforderungen und Möglichkeiten, mein Wissen anzuwenden und zu erweitern. Mein aktuelles Ziel ist es, Erfahrung zu sammeln und mich beruflich im Programmierbereich weiterzuentwickeln, meine Fähigkeiten zu verbessern und meine Laufbahn in der Technologie zu festigen."
     },
-    "projetos": "Projekte"
+    "projetos": "Projekte",
+    "buscarTecnologia": "Nach Technologie suchen",
+    "meusConhecimentos": "Meine Kenntnisse",
+    "basic": "Grundkenntnisse",
+    "intermediate": "Fortgeschritten",
+    "advanced": "Experte"
   }
 }

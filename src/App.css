@@ -2,13 +2,63 @@
 *{
   box-sizing: border-box;
   overflow-x: hidden;
-  /* background-color: #001D4A; */
-  color: white;
+  color: black;
   text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.301);
 
 }
 
-button, img {
-  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.301);
+h1, h2, h3, h4, p, input {
+  overflow-y: hidden;
 }
+
+@keyframes zoomSlow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-zoomSlow {
+  animation: zoomSlow 20s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes zoomInBackground {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(1.25) rotate(0.5deg);
+  }
+}
+
+.bg-animated {
+  animation: zoomInBackground 12s ease-in-out infinite alternate;
+  background-image: url('/img/code.png');
+  background-size: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.bg-animated-list {
+  animation: zoomSlow 30s ease-in-out infinite;
+  will-change: transform;
+  background-image: url('/img/code.png');
+  background-size: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.bg-static-list {
+  background-image: url('/img/code.png');
+  background-size: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
 

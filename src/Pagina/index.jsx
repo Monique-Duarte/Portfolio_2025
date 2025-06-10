@@ -1,15 +1,11 @@
-import React from 'react';
-
 import SobreMim from '../Componentes/Sobre';
-import Menu from '../Componentes/Menu';
-import Id from '../Componentes/Id';
 import Projects from '../Componentes/Projects';
+import Hero from '../Componentes/Hero';
 
 const Inicio = () => {
 	return (
 		<>
-    <Menu />
-    <Id />
+    <Hero />
     <SobreMim />
     <Projects />
     </>
