@@ -1,22 +1,28 @@
 {
   "translation": {
-    "header": "Portefeuille",
+    "header": "Portfolio Développeuse Front-End",
+    "search_placeholder": "Technologie",
     "footer": "© 2025 Tous droits réservés.",
     "id": {
-      "graduacao": "Étudiant en Master en Génie Logiciel - PUC Minas",
+      "graduacao": "Postgraduate en Génie Logiciel - PUC Minas",
       "area": "Développeuse Front-end - EBAC",
-      "Estudante": "Full Stack Python - EBAC",
+      "Estudante": "Étudiante Full Stack Python - EBAC",
       "tags": "Dev | React | JavaScript | TypeScript | HTML | CSS | Node.js | Système Web"
     },
     "sobre": {
       "sobreMim": "À propos de moi",
       "sobre": "Qui suis-je ?",
-      "quemEuSou": "Je suis Monique Duarte, 29 ans, étudiante en Master d'Ingénierie Logicielle à la PUC Minas, Zootechnicienne et titulaire d'un Master en Sciences de l'USP. Je cherche une opportunité en tant que développeuse junior, passionnée par la technologie, avec un accent sur le développement, l'automatisation, l'IA et l'innovation.",
+      "quemEuSou": "Je suis Monique Duarte, 30 ans, étudiante en postgraduate en génie logiciel à la PUC Minas, Zootechnicienne et Master en sciences à l'USP. Je cherche une opportunité en tant que développeuse, passionnée par la technologie, avec un focus sur le développement, l'automatisation, l'IA et l'innovation.",
       "oQueFaco": "Que fais-je aujourd'hui ?",
-      "atualmente": "Actuellement, je suis stagiaire dans le domaine du support et du front-end, collaborant avec les équipes de support et d'ingénierie pour l'analyse et la qualité des projets. Mon objectif est de trouver des solutions automatisées, d'apprendre React et de réaliser des tests qui optimisent les processus et améliorent l'efficacité pour moi et mes collègues.",
-      "quaisObj": "Quels sont mes objectifs ?",
-      "objetivos": "Je suis toujours à la recherche de nouveaux défis et opportunités pour appliquer et étendre mes connaissances. Mon objectif actuel est d'acquérir de l'expérience et de progresser professionnellement dans le domaine de la programmation, en améliorant mes compétences et en consolidant ma carrière dans la technologie."
+      "atualmente": "Actuellement, je suis stagiaire front-end, collaborant avec les équipes support et ingénierie pour l'analyse et la qualité des projets. Mon focus est sur des solutions automatisées, l'apprentissage de React et les tests qui optimisent les processus et améliorent l'efficacité pour moi et mes collègues.",
+      "quaisObj": "Mes objectifs ?",
+      "objetivos": "Je suis toujours à la recherche de nouveaux défis et opportunités pour appliquer et étendre mes connaissances. Mon objectif actuel est d'acquérir de l'expérience et de progresser professionnellement dans la programmation, en améliorant mes compétences et en consolidant mon parcours dans la technologie."
     },
-    "projetos": "Projets"
+    "projetos": "Projets",
+    "buscarTecnologia": "Rechercher par Technologie",
+    "meusConhecimentos": "Mes Compétences",
+    "basic": "Débutant",
+    "intermediate": "Intermédiaire",
+    "advanced": "Avancé"
   }
 }

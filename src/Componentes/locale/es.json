@@ -1,24 +1,28 @@
 {
   "translation": {
-    "header": "Portafolio",
+    "header": "Portafolio de Desarrolladora Front-End",
+    "search_placeholder": "Tecnología",
     "footer": "© 2025 Todos los derechos reservados.",
-    "id":
-    {
-      "graduacao": "Estudiante de posgrado en Ingeniería de Software - PUC Minas",
-      "area": "Desarrolladora Front-end - PUC Minas",
-      "Estudante": "Full Stack Python - EBAC",
+    "id": {
+      "graduacao": "Posgrado en Ingeniería de Software - PUC Minas",
+      "area": "Desarrolladora Front-end - EBAC",
+      "Estudante": "Estudiante Full Stack Python - EBAC",
       "tags": "Dev | React | JavaScript | TypeScript | HTML | CSS | Node.js | Sistema Web"
     },
-    "sobre": 
-    {
+    "sobre": {
       "sobreMim": "Sobre mí",
       "sobre": "¿Quién soy?",
-      "quemEuSou": "Soy Monique Duarte, 29 años, estudiante de posgrado en Ingeniería de Software en PUC Minas, Zootecnista y Maestra en Ciencias por la USP. Busco una oportunidad como desarrolladora junior, apasionada por la tecnología, con enfoque en desarrollo, automatización, IA e innovación.",
+      "quemEuSou": "Soy Monique Duarte, 30 años, estudiante de posgrado en Ingeniería de Software en PUC Minas, Zootecnista y Máster en Ciencias por la USP. Busco una oportunidad como desarrolladora, apasionada por la tecnología, enfocada en desarrollo, automatización, IA e innovación.",
       "oQueFaco": "¿Qué hago hoy?",
-      "atualmente": "Actualmente, soy pasante en el área de soporte y front-end, colaborando con los equipos de soporte e ingeniería en el análisis y calidad de proyectos. Mi enfoque está en soluciones automatizadas, aprendizaje de React y pruebas que optimicen procesos y mejoren la eficiencia para mí y mis compañeros.",
-      "quaisObj": "¿Cuáles son mis objetivos?",
-      "objetivos": "Siempre estoy en busca de nuevos desafíos y oportunidades para aplicar y expandir mis conocimientos. Mi objetivo actual es ganar experiencia y crecer profesionalmente en el área de programación, mejorando mis habilidades y consolidando mi trayectoria en la tecnología."
+      "atualmente": "Actualmente, soy pasante en front-end, colaborando con los equipos de soporte e ingeniería en análisis y calidad de proyectos. Mi enfoque está en soluciones automatizadas, aprendizaje con React y pruebas que optimizan procesos y mejoran la eficiencia para mí y mis colegas.",
+      "quaisObj": "¿Mis objetivos?",
+      "objetivos": "Siempre estoy en busca de nuevos retos y oportunidades para aplicar y ampliar mis conocimientos. Mi objetivo actual es ganar experiencia y crecer profesionalmente en el área de programación, mejorando mis habilidades y consolidando mi trayectoria en tecnología."
     },
-    "projetos": "Proyectos"
+    "projetos": "Proyectos",
+    "buscarTecnologia": "Buscar por Tecnología",
+    "meusConhecimentos": "Mis Conocimientos",
+    "basic": "Básico",
+    "intermediate": "Intermedio",
+    "advanced": "Avanzado"
   }
 }
