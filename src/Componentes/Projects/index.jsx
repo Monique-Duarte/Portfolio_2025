@@ -75,7 +75,7 @@ const Projects = () => {
             to="/projects"
             className="inline-block text-white text-sm px-6 py-2 rounded-xl backdrop-blur-lg bg-white/10 hover:bg-white/20 transition shadow-lg"
           >
-            Lista de Projetos
+            {t("lista_projetos")}
           </Link>
         </div>
 

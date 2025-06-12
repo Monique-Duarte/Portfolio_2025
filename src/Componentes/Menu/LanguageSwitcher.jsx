@@ -26,6 +26,7 @@ const LanguageSwitcher = () => {
   const changeLanguage = (lang) => {
     if (lang !== currentLang.value) {
       i18n.changeLanguage(lang);
+      localStorage.setItem('userLanguage', lang);
       window.history.pushState(null, '', `/${lang}`);
     }
     setOpen(false);
